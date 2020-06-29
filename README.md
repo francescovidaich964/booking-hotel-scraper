@@ -1,8 +1,13 @@
 # Web Scraper to extract hotel prices from Booking.com
 
+Starting from the original repository of [ScrapeHero Tutorials](https://www.scrapehero.com/scrape-property-data-from-booking-com-using-google-chrome/), I wanted to improve the tool to collect more information for each search (like scraping all pages of results, the informations of different rooms of same hotels, etc.)
+
+## Original README
+
 Scraper to get Hotel price details from any search on Booking.com 
 
 Full article at [ScrapeHero Tutorials](https://www.scrapehero.com/scrape-property-data-from-booking-com-using-google-chrome/)
+
 
 ## Usage
 
