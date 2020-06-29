@@ -33,3 +33,7 @@ hotels:
         url:
             css: a.hotel_name_link
             type: Link
+
+next_page_link:
+    css: a.paging-next
+    type: Link

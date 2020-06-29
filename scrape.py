@@ -1,11 +1,15 @@
+
 from selectorlib import Extractor
 import requests 
 from time import sleep
 import csv
 
+
 # Create an Extractor by reading from the YAML file
 e = Extractor.from_yaml_file('booking.yml')
 
+
+# Function that collects all informations from the url
 def scrape(url):    
     headers = {
         'Connection': 'keep-alive',
@@ -22,13 +26,18 @@ def scrape(url):
     }
 
     # Download the page using requests
-    print("Downloading %s"%url)
+    print("\nDownloading %s"%url)
     r = requests.get(url, headers=headers)
     # Pass the HTML of the page and create 
     return e.extract(r.text,base_url=url)
 
-# product_data = []
+
+
+
+# Open 'urls.txt' as input file and 'data.csv' as output file
 with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
+    
+    # Define the names of all columns
     fieldnames = [
         "name",
         "location",
@@ -41,12 +50,22 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
         "number_of_ratings",
         "url"
     ]
+
+    # Build the 'data.csv' table
     writer = csv.DictWriter(outfile, fieldnames=fieldnames,quoting=csv.QUOTE_ALL)
     writer.writeheader()
+
+    # For every url in the file...
     for url in urllist.readlines():
-        data = scrape(url) 
-        if data:
-            for h in data['hotels']:
-                writer.writerow(h)
-            # sleep(5)
-    
+
+        # ...collect search results until the last page
+        while (url!=None):
+
+            # Collect and write data of the current page
+            data = scrape(url) 
+            if data:
+                for h in data['hotels']:
+                    writer.writerow(h)
+            
+            # Redefine url using the 'next_page' link
+            url = data['next_page_link']
