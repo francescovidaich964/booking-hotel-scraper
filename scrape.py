@@ -5,11 +5,7 @@ from time import sleep
 import csv
 
 
-# Create an Extractor by reading from the YAML file
-e = Extractor.from_yaml_file('booking.yml')
-
-
-# Function that collects all informations from the url
+# Function that collects all informations from the page linked from the url
 def scrape(url):    
     headers = {
         'Connection': 'keep-alive',
@@ -28,11 +24,16 @@ def scrape(url):
     # Download the page using requests
     print("\nDownloading %s"%url)
     r = requests.get(url, headers=headers)
-    # Pass the HTML of the page and create 
+    # Pass the HTML of the page and create the data
     return e.extract(r.text,base_url=url)
 
 
 
+######################################################################
+
+
+# Create an Extractor by reading from the YAML file
+e = Extractor.from_yaml_file('booking.yml')
 
 # Open 'urls.txt' as input file and 'data.csv' as output file
 with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
@@ -41,14 +42,22 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     fieldnames = [
         "name",
         "location",
+        "how_far",
+        "stars",
         "price",
         "price_for",
         "room_type",
         "beds",
-        "rating",
+        "breakfast",
+        "cancellation",
+        "checkin",
+        "checkout",
         "rating_title",
+        "rating",
         "number_of_ratings",
-        "url"
+        #"url",
+        #"map",
+        "coords"
     ]
 
     # Build the 'data.csv' table
@@ -61,11 +70,13 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
         # ...collect search results until the last page
         while (url!=None):
 
-            # Collect and write data of the current page
-            data = scrape(url) 
+            # Collect and store data of the current page
+            data = scrape(url)
             if data:
                 for h in data['hotels']:
                     writer.writerow(h)
             
             # Redefine url using the 'next_page' link
             url = data['next_page_link']
+
+    print("\nScraped all pages!\n")
