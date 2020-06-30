@@ -29,6 +29,7 @@ def scrape(url):
 
 
 
+
 ######################################################################
 
 
@@ -42,6 +43,7 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     fieldnames = [
         "name",
         "location",
+        "coords",
         "how_far",
         "stars",
         "price",
@@ -57,7 +59,6 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
         "number_of_ratings",
         #"url",
         #"map",
-        "coords"
     ]
 
     # Build the 'data.csv' table

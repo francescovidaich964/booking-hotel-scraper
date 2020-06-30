@@ -3,21 +3,29 @@ hotels:
     multiple: true
     type: Text
     children:
+
         name:
             css: span.sr-hotel__name
             type: Text
+
         location:
             css: a.bui-link
             type: Text
+        coords:
+            css: a.bui-link
+            type: Attribute
+            attribute: data-coords
         how_far:
             css:  div.sr_card_address_line span:nth-of-type(2)
             type: Text
+
         stars:
             css: span.sr-hotel__title-badges
             type: Text
         price:
             css: div.bui-price-display__value
-            type: Text    
+            type: Text 
+
         price_for:
             css: div.bui-price-display__label
             type: Text
@@ -27,24 +35,27 @@ hotels:
         beds:
             css: div.c-beds-configuration
             type: Text
+
         breakfast:
             css: div.roomPrice > sup.sr_room_reinforcement
             type: Text
         cancellation:
             css: sup.sr_room_reinforcement.e2e-free-cancellation
             type: Text
+
         checkin:
             css: div.sb-date-field__display
             type: Text
         checkout:
             css: div.sb-date-field__display
             type: Text 
-        checkin:
-            css: div.sb-date-field__display[data-placeholder="Check-in date"]
-            type: Text
-        checkout:
-            css: div.sb-date-field__display[data-placeholder="Check-out date"]
-            type: Text
+        #checkin:
+            #css: div.sb-date-field__display[data-placeholder="Check-in date"]
+            #type: Text
+        #checkout:
+            #css: div.sb-date-field__display[data-placeholder="Check-out date"]
+            #type: Text
+
         rating_title:
             css: div.bui-review-score__title
             type: Text
@@ -60,9 +71,7 @@ hotels:
         #map:
             #css: a.bui-link
             #type: Link
-        coords:
-            css: div.sr_card_address_line.data_coords
-            type: Text
+
 
 next_page_link:
     css: a.paging-next
