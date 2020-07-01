@@ -1,159 +1,217 @@
-"name","location","coords","how_far","stars","price","price_for","room_type","beds","breakfast","cancellation","checkin","checkout","rating_title","rating","number_of_ratings"
-"River View New build with balcony, 10 min to Oxford Circus","Lambeth, London Show on map","-0.126231829072,51.485326834206","2.5 km from centre","","€ 233","1 night, 1 adult","Apartment with Lake View","2 beds
-(1 double, 1 sofa bed)","","","","","Exceptional","9.5","33 reviews"
-"London Living","Southwark, London Show on map","-0.070975800000042,51.4632504","6 km from centre","","€ 73","1 night, 1 adult","Standard Single Room with Shared Bathroom","1 single bed","","","","","Superb","9.0","49 reviews"
-"House Of Theatres","Westminster Borough, London Show on map","-0.129027,51.509835","300 m from centre","","€ 171","1 night, 1 adult","Studio","1 double bed","","FREE cancellation","","","Superb","9.1","520 reviews"
-"Mirabilis Apartments, Wells Court","Camden, London Show on map","-0.1781205,51.55589","6 km from centre","","€ 157","1 night, 1 adult","Standard Apartment","1 large double bed","","","","","Superb","9.4","79 reviews"
-"Grand Heights LUXURY Suites - Free Continental Breakfast","London Show on map","-0.0077032,51.5614953","10 km from centre","","€ 37","1 night, 1 adult","Double Room with Shared Bathroom","1 double bed","","","","","Exceptional","9.7","4 reviews"
-"BLOOMSBURY APARTMENTS","Camden, London Show on map","-0.123810323907833,51.5261633751252","2.1 km from centre","","€ 170","1 night, 1 adult","Deluxe One-Bedroom Apartment","2 beds
-(1 single, 1 extra-large double)","","FREE cancellation","","","Superb","9.0","169 reviews"
-"Mirabilis Apartments - Bayham Street","Camden, London Show on map","-0.1379534,51.5352063","3.2 km from centre","","€ 140","1 night, 1 adult","Standard Apartment","1 large double bed","","","","","Exceptional","9.6","144 reviews"
-"Hilton London Canary Wharf","Tower Hamlets, London Show on map","-0.0179439783096313,51.5002644871169","7 km from centre","4-star hotel","€ 107","1 night, 1 adult","Twin Guest Room","2 single beds","","FREE cancellation","","","Superb","9.0","2,698 reviews"
-"The Clerk & Well Pub and Rooms","Camden, London Show on map","-0.110659688954911,51.5220663950453","2 km from centre","","€ 216","1 night, 1 adult","Large Double Room","1 large double bed","","","","","Superb","9.2","254 reviews"
-"ME London by Melia","Westminster Borough, London Show on map","-0.118811130523682,51.5116170646804","800 m from centre","5-star hotel Promoted This property spends a little extra to promote their visibility on our site. It matches your search criteria and is a great choice for you.","€ 376","1 night, 1 adult","Deluxe Double Room","1 double bed","","FREE cancellation","","","Superb","9.1","1,311 reviews"
-"Modern En-suite Rooms near Tube","Southwark, London Show on map","-0.042221,51.495461","6 km from centre","","€ 71","1 night, 1 adult","Double Room with Extra Bed","2 beds
-(1 single, 1 double)","","FREE cancellation","","","Exceptional","10","4 reviews"
-"Apartment 20 @ Excel London","Newham, London Show on map","0.028945500849,51.511312127009","10 km from centre","","€ 157","1 night, 1 adult","One-Bedroom Apartment","2 beds
-(1 double, 1 sofa bed)","","","","","Exceptional","9.8","13 reviews"
-"Mirabilis Apartments - Bayham Place","Camden, London Show on map","-0.1381554,51.5350692","3.2 km from centre","","€ 157","1 night, 1 adult","Standard Apartment","1 double bed","","","","","Exceptional","9.5","27 reviews"
-"Riverview 2BD Apartment Near City Airport","Greenwich, London Show on map","0.0665635,51.4943086","13 km from centre","","€ 310","1 night, 1 adult","Two-Bedroom Apartment","2 beds
-(1 double, 1 large double)","","FREE cancellation","","","Superb","9.1","7 reviews"
-"Pretty Maida Vale Apartments","Westminster Borough, London Show on map","-0.1948274,51.5250524","5 km from centre","","€ 105","1 night, 1 adult","Studio Apartment","1 double bed","","","","","Superb","9.0","47 reviews"
-"Fulham B&B","Hammersmith and Fulham, London Show on map","-0.205791,51.47084","6 km from centre","","€ 98","1 night, 1 adult","Double Room with Garden View","1 double bed","Breakfast included","","","","Exceptional","9.9","72 reviews"
-"Park Serviced Apartments - Canary Wharf","Tower Hamlets, London Show on map","-0.019077,51.497724","7 km from centre","4 stars","€ 141","1 night, 1 adult","One-Bedroom Apartment","2 beds
-(1 extra-large double, 1 sofa bed)","","","","","Superb","9.1","8 reviews"
-"Royal Gateway Penthouse","Newham, London Show on map","0.0126042,51.5105512","9 km from centre","","€ 93","1 night, 1 adult","Apartment","2 double beds","","","","","Superb","9.4","38 reviews"
-"Half Moon","Southwark, London Show on map","-0.100894043585981,51.4527515011453","6 km from centre","","€ 108","1 night, 1 adult","The Cosy Cabin","1 double bed","Breakfast included","FREE cancellation","","","Superb","9.2","448 reviews"
-"The Silver Pine Cabin, Tower Bridge","City of London, London Show on map","-0.073620233066,51.513593037501","3.9 km from centre","","€ 136","1 night, 1 adult","Two-Bedroom Apartment","2 double beds","","","","","Exceptional","9.5","4 reviews"
-"Luxury Apartment by River Thames","Westminster Borough, London Show on map","-0.148543711114,51.487261322164","2.7 km from centre","","€ 184","1 night, 1 adult","One-Bedroom Apartment","3 beds
-(1 double, 1 sofa bed, 1 futon)","","","","","Exceptional","9.6","29 reviews"
-"Streatham Common Homestay","Lambeth, London Show on map","-0.137867,51.417763","10 km from centre","","€ 61","1 night, 1 adult","Double Room with Private Bathroom","1 double bed","Breakfast included","","","","Exceptional","9.5","334 reviews"
-"SIAC Camden Regents Park","Camden, London Show on map","-0.1458034,51.5381329","3.6 km from centre","","€ 1,331","1 night, 1 adult","Apartment - Ground Floor","5 beds
-(2 singles, 1 extra-large double, 2 sofa beds)","","","","","Exceptional","9.5","4 reviews"
-"nhow London","Islington, London Show on map","-0.097315999999978,51.529481","3.2 km from centre","4-star hotel","€ 123","1 night, 1 adult","nhow Superior Room","Beds: 1 double or 2 singles","Breakfast included","FREE cancellation","","","Superb","9.0","144 reviews"
-"Motel One London-Tower Hill","City of London, London Show on map","-0.0753938000000289,51.5126978","3.7 km from centre","3-star hotel","€ 108","1 night, 1 adult","Standard Double Room","1 large double bed","","FREE cancellation","","","Superb","9.0","4,961 reviews"
-"Georgiana's Guesthouse","Hammersmith and Fulham, London Show on map","-0.191933,51.475575","5 km from centre","","€ 137","1 night, 1 adult","Double Room with Private Bathroom","2 beds
-(1 single, 1 double)","Breakfast included","FREE cancellation","","","Superb","9.4","130 reviews"
-"citizenM London Shoreditch","Hackney, London Show on map","-0.0778247000000647,51.5238257","4 km from centre","4-star hotel","€ 119","1 night, 1 adult","King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.0","3,543 reviews"
-"citizenM Tower of London","City of London, London Show on map","-0.0767034624267353,51.5102308736297","3.5 km from centre","4-star hotel","€ 119","1 night, 1 adult","King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.1","8,258 reviews"
-"Central London rooms","Wandsworth, London Show on map","-0.149176,51.47743","3.7 km from centre","","€ 65","1 night, 1 adult","Apartment With Shared Bathroom","2 single beds","","","","","Superb","9.0","7 reviews"
-"Lansbury Heritage Hotel","Tower Hamlets, London Show on map","-0.0155092438340034,51.5090023699755","7 km from centre","4-star hotel","€ 130","1 night, 1 adult","Lansbury Classic","1 large double bed","","FREE cancellation","","","Superb","9.0","943 reviews"
-"Capital Stay London Docklands","Newham, London Show on map","0.037737,51.501039","11 km from centre","","€ 163","1 night, 1 adult","Deluxe Double Room with Shower","1 double bed","","","","","Superb","9.1","10 reviews"
-"beautiful 1 bed appartment near GREENWICH 02","Greenwich, London Show on map","0.0134540120813418,51.4966111590103","9 km from centre","","€ 245","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","Superb","9.3","3 reviews"
-"St Paul's Hotel","Hammersmith and Fulham, London Show on map","-0.218308928835995,51.4933446419762","6 km from centre","4-star hotel","€ 76","1 night, 1 adult","Classic Double Room","1 double bed","","FREE cancellation","","","Superb","9.0","838 reviews"
-"Clayton Hotel City of London","Tower Hamlets, London Show on map","-0.071235,51.514795","4 km from centre","4-star hotel","€ 104","1 night, 1 adult","Deluxe Double Room","1 double bed","Breakfast included","FREE cancellation","","","Superb","9.0","3,506 reviews"
-"Amazing London","London Show on map","0.0320584,51.5900078","14 km from centre","","€ 127","1 night, 1 adult","Deluxe Double Room","1 large double bed","","","","","Superb","9.2","249 reviews"
-"Leman Locke","Tower Hamlets, London Show on map","-0.0706447999999682,51.5141033","4 km from centre","4 stars","€ 119","1 night, 1 adult","Studio","1 double bed","","FREE cancellation","","","Superb","9.0","879 reviews"
-"Clean and comfy room near the river","Tower Hamlets, London Show on map","-0.006734,51.506672","8 km from centre","","€ 60","1 night, 1 adult","Double Room with Private Bathroom","1 double bed","","","","","Exceptional","9.9","3 reviews"
-"Soho Stables","Westminster Borough, London Show on map","-0.136027425396605,51.511551127728","750 m from centre","4 stars","€ 584","1 night, 1 adult","Apartment - Split Level","1 double bed","","","","","Exceptional","9.6","93 reviews"
-"Kensington & Chelsea Apartments","Kensington and Chelsea, London Show on map","-0.2128946,51.5058567","5 km from centre","","€ 163","1 night, 1 adult","Two-Bedroom Apartment","2 beds
-(1 single, 1 double)","","FREE cancellation","","","Superb","9.0","3 reviews"
-"The Dixon, Tower Bridge, Autograph Collection","Southwark, London Show on map","-0.0769000000000233,51.502106","3.6 km from centre","4-star hotel","€ 125","1 night, 1 adult","Twin Room","2 single beds","","FREE cancellation","","","Superb","9.2","549 reviews"
-"Native Bankside","Southwark, London Show on map","-0.095911,51.507281","2.2 km from centre","","€ 143","1 night, 1 adult","Small Studio","1 large double bed","","","","","Superb","9.2","1,038 reviews"
-"SACO Fitzrovia","Camden, London Show on map","-0.135719344180302,51.5203463208603","1.6 km from centre","4 stars","€ 157","1 night, 1 adult","One-Bedroom Apartment","2 beds
-(1 double, 1 sofa bed)","","FREE cancellation","","","Superb","9.1","138 reviews"
-"SACO - The Cannon","City of London, London Show on map","-0.0933183251486298,51.5122207736398","2.5 km from centre","4 stars","€ 106","1 night, 1 adult","Studio","1 large double bed","","","","","Superb","9.3","322 reviews"
-"Hilton London Tower Bridge","Southwark, London Show on map","-0.0825583934783936,51.5047490932239","3.1 km from centre","4-star hotel","€ 127","1 night, 1 adult","Twin Guest Room","2 single beds","","FREE cancellation","","","Superb","9.0","2,238 reviews"
-"citizenM London Bankside","Southwark, London Show on map","-0.0982010364532471,51.5052432744949","2.1 km from centre","4-star hotel","€ 119","1 night, 1 adult","King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.0","3,975 reviews"
-"Montcalm Royal London House-City of London","Islington, London Show on map","-0.0856383281334274,51.5215739091535","3.4 km from centre","5-star hotel","€ 157","1 night, 1 adult","Deluxe Twin Room","2 single beds","","FREE cancellation","","","Superb","9.1","5,363 reviews"
-"Treehouse Hotel London","Westminster Borough, London Show on map","-0.142448,51.517839","1.6 km from centre","4-star hotel","€ 250","1 night, 1 adult","Standard Double Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.1","95 reviews"
-"Byam Shaw House","Kensington and Chelsea, London Show on map","-0.196458168524,51.506369860794","4.8 km from centre","","€ 651","1 night, 1 adult","Apartment","3 double beds","","FREE cancellation","","","Exceptional","9.5","20 reviews"
-"Studio","Wandsworth, London Show on map","-0.148703299999966,51.4771163","3.7 km from centre","","€ 98","1 night, 1 adult","Studio Apartment","1 double bed","Breakfast included","","","","Exceptional","9.7","9 reviews"
-"Marylebone Luxury Duplex","Westminster Borough, London Show on map","-0.160906599999976,51.5207624","2.8 km from centre","Promoted This property spends a little extra to promote their visibility on our site. It matches your search criteria and is a great choice for you.","€ 747","1 night, 1 adult","Duplex Apartment","3 beds
-(2 doubles, 1 sofa bed)","","FREE cancellation","","","Exceptional","9.6","45 reviews"
-"Wilde Aparthotels by Staycity Covent Garden","Westminster Borough, London Show on map","-0.122276100000022,51.5097137","500 m from centre","4-star hotel","€ 202","1 night, 1 adult","Wilde Sleep Zone Double Room","1 large double bed","","FREE cancellation","","","Superb","9.1","2,078 reviews"
-"Tower Suites by Blue Orchid","City of London, London Show on map","-0.075284,51.510466","3.6 km from centre","5-star hotel","€ 152","1 night, 1 adult","Superior Studio","1 large double bed","","FREE cancellation","","","Superb","9.2","611 reviews"
-"Modern En-suite Rooms near Tube","Southwark, London Show on map","-0.042221,51.495461","6 km from centre","","€ 71","1 night, 1 adult","Double Room with Extra Bed","2 beds
-(1 single, 1 double)","","FREE cancellation","","","Exceptional","10","4 reviews"
-"2-Bedrooms Apartment, Lounge, Balcony","Newham, London Show on map","-0.0151227280639432,51.5489794981916","9 km from centre","5 stars","€ 213","1 night, 1 adult","Apartment with Balcony","5 beds
-(2 singles, 1 double, 1 sofa bed, 1 large double)","","","","","Superb","9.2","88 reviews"
-"Luxury Apartment by River Thames","Westminster Borough, London Show on map","-0.148543711114,51.487261322164","2.7 km from centre","","€ 184","1 night, 1 adult","One-Bedroom Apartment","3 beds
-(1 double, 1 sofa bed, 1 futon)","","","","","Exceptional","9.6","29 reviews"
-"greenwich","Greenwich, London Show on map","-0.019586,51.475325","8 km from centre","","€ 25","1 night, 1 adult","Budget Double Room","1 double bed","","FREE cancellation","","","Superb","9.0","14 reviews"
-"Lilly's Place","Hackney, London Show on map","-0.0576363,51.5466558","6 km from centre","Promoted This property spends a little extra to promote their visibility on our site. It matches your search criteria and is a great choice for you.","€ 168","1 night, 1 adult","Two-Bedroom Apartment","4 beds
-(2 singles, 1 double, 1 sofa bed)","","","","","Exceptional","9.6","8 reviews"
-"Kensington & Chelsea Apartments","Kensington and Chelsea, London Show on map","-0.2128946,51.5058567","5 km from centre","","€ 163","1 night, 1 adult","Two-Bedroom Apartment","2 beds
-(1 single, 1 double)","","FREE cancellation","","","Superb","9.0","3 reviews"
-"Grand Heights LUXURY Suites - Free Continental Breakfast","London Show on map","-0.0077032,51.5614953","10 km from centre","","€ 37","1 night, 1 adult","Double Room with Shared Bathroom","1 double bed","","","","","Exceptional","9.7","4 reviews"
-"Beaufort House - Knightsbridge","Kensington and Chelsea, London Show on map","-0.165342199999941,51.4982632","2.9 km from centre","5 stars","€ 226","1 night, 1 adult","Superior One-Bedroom Apartment","1 large double bed","","","","","Superb","9.3","162 reviews"
-"Central London Apartment - Great Location","Westminster Borough, London Show on map","-0.136019000000033,51.5183508","1.4 km from centre","5 stars","€ 229","1 night, 1 adult","Apartment","2 beds
-(1 double, 1 sofa bed)","","","","","Superb","9.2","382 reviews"
-"beautiful 1 bed appartment near GREENWICH 02","Greenwich, London Show on map","0.0134540120813418,51.4966111590103","9 km from centre","","€ 245","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","Superb","9.3","3 reviews"
-"Pretty Maida Vale Apartments","Westminster Borough, London Show on map","-0.1948274,51.5250524","5 km from centre","","€ 105","1 night, 1 adult","Studio Apartment","1 double bed","","","","","Superb","9.0","47 reviews"
-"The Chronicle","City of London, London Show on map","-0.109598,51.516969","1.6 km from centre","4 stars","€ 189","1 night, 1 adult","Studio","1 large double bed","","","","","Superb","9.0","161 reviews"
-"The Hayden Pub & Rooms","Westminster Borough, London Show on map","-0.191477,51.515324","4.5 km from centre","","€ 207","1 night, 1 adult","Deluxe Double Room with Bath","1 large double bed","","","","","Exceptional","9.6","50 reviews"
-"3 Bedrooms, 3 Baths, Spacious Lounge, Full Kitchen, Garden, Ground Floor, Free Parking","London Show on map","0.084341885181,51.572590540744","16 km from centre","","€ 347","1 night, 1 adult","Three-Bedroom Apartment","10 beds
-(6 singles, 1 double, 3 sofa beds)","","","","","Exceptional","10","3 reviews"
-"Capital Stay London Docklands","Newham, London Show on map","0.037737,51.501039","11 km from centre","","€ 163","1 night, 1 adult","Deluxe Double Room with Shower","1 double bed","","","","","Superb","9.1","10 reviews"
-"Amazing London","London Show on map","0.0320584,51.5900078","14 km from centre","","€ 127","1 night, 1 adult","Deluxe Double Room","1 large double bed","","","","","Superb","9.2","249 reviews"
-"The One Tun Pub & Rooms","Camden, London Show on map","-0.106841700000018,51.5199749","2 km from centre","","€ 216","1 night, 1 adult","Large Double or Twin Room","Multiple bed types","","","","","Superb","9.1","265 reviews"
-"US Embassy Riverside Apartment","Wandsworth, London Show on map","-0.131558734723,51.483997612189","2.6 km from centre","","€ 2,631","1 night, 1 adult","Apartment with Balcony","4 beds
-(2 singles, 1 double, 1 sofa bed)","","","","","Exceptional","10","3 reviews"
-"Native Monument","City of London, London Show on map","-0.0841946521843511,51.5097609621981","3 km from centre","4 stars","€ 148","1 night, 1 adult","Premium Studio Apartment","1 double bed","","","","","Superb","9.0","470 reviews"
-"Soho Stables","Westminster Borough, London Show on map","-0.136027425396605,51.511551127728","750 m from centre","4 stars","€ 584","1 night, 1 adult","Apartment - Split Level","1 double bed","","","","","Exceptional","9.6","93 reviews"
-"Byam Shaw House","Kensington and Chelsea, London Show on map","-0.196458168524,51.506369860794","4.8 km from centre","","€ 651","1 night, 1 adult","Apartment","3 double beds","","FREE cancellation","","","Exceptional","9.5","20 reviews"
-"Second Nest Hampton Street","Southwark, London Show on map","-0.101403594017029,51.4919838781749","2.5 km from centre","4 stars","€ 350","1 night, 1 adult","Superior Apartment","4 large double beds","","","","","Superb","9.4","5 reviews"
-"Affordable Lux and Cozy 1 bed flat in Chelsea","Kensington and Chelsea, London Show on map","-0.181044,51.485709","4.5 km from centre","","€ 164","1 night, 1 adult","Studio Apartment","1 double bed","","FREE cancellation","","","Superb","9.0","61 reviews"
-"Georgiana's Guesthouse","Hammersmith and Fulham, London Show on map","-0.191933,51.475575","5 km from centre","","€ 137","1 night, 1 adult","Double Room with Private Bathroom","2 beds
-(1 single, 1 double)","Breakfast included","FREE cancellation","","","Superb","9.4","130 reviews"
-"Clean and comfy room near the river","Tower Hamlets, London Show on map","-0.006734,51.506672","8 km from centre","","€ 60","1 night, 1 adult","Double Room with Private Bathroom","1 double bed","","","","","Exceptional","9.9","3 reviews"
-"2-Bedrooms Apartment, Lounge, Balcony","Newham, London Show on map","-0.0151227280639432,51.5489794981916","9 km from centre","5 stars","€ 213","1 night, 1 adult","Apartment with Balcony","5 beds
-(2 singles, 1 double, 1 sofa bed, 1 large double)","","","","","Superb","9.2","88 reviews"
-"Fully equipped 1 bed flat in Croydon","Norwood, London Show on map","-0.0834847614169121,51.4002573762155","12 km from centre","","€ 109","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","FREE cancellation","","","Exceptional","9.8","6 reviews"
-"Beaufort House - Knightsbridge","Kensington and Chelsea, London Show on map","-0.165342199999941,51.4982632","2.9 km from centre","5 stars","€ 226","1 night, 1 adult","Superior One-Bedroom Apartment","1 large double bed","","","","","Superb","9.3","162 reviews"
-"Corinthia Hotel London","Westminster Borough, London Show on map","-0.125020444393158,51.5061339559197","250 m from centre","5-star hotel","€ 740","1 night, 1 adult","Superior King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.3","500 reviews"
-"Modern En-suite Rooms near Tube","Southwark, London Show on map","-0.042221,51.495461","6 km from centre","","€ 67","1 night, 1 adult","Double Room with Extra Bed","2 beds
-(1 single, 1 double)","","","","","Exceptional","10","4 reviews"
-"Double room in Marylebone","Westminster Borough, London Show on map","-0.161835776955058,51.5165672436266","2.6 km from centre","","€ 161","1 night, 1 adult","Deluxe Double Room","1 double bed","","","","","Superb","9.0","31 reviews"
-"41","Westminster Borough, London Show on map","-0.14363095164299,51.4982207227643","1.6 km from centre","5-star hotel","€ 315","1 night, 1 adult","Executive Single","1 single bed","","FREE cancellation","","","Exceptional","9.7","422 reviews"
-"The One Tun Pub & Rooms","Camden, London Show on map","-0.106841700000018,51.5199749","2 km from centre","","€ 216","1 night, 1 adult","Large Double or Twin Room","Multiple bed types","","","","","Superb","9.1","265 reviews"
-"South Kensington Private Room Private Bathroom","Kensington and Chelsea, London Show on map","-0.188772464018825,51.4944681218133","4.5 km from centre","","€ 108","1 night, 1 adult","Deluxe Queen Room","1 large double bed","Breakfast included","","","","Superb","9.2","9 reviews"
-"Comfortable Central Apartment in London","Lambeth, London Show on map","-0.117094814086158,51.4619181915083","5 km from centre","","€ 205","1 night, 1 adult","One-Bedroom Apartment","3 beds
-(1 double, 2 sofa beds)","","","","","Superb","9.3","8 reviews"
-"Lovely Room & Private Bathroom in Heart of London","London Show on map","-0.174967,51.59693","10 km from centre","","€ 86","1 night, 1 adult","Double Room with Private Bathroom","2 beds
-(1 double, 1 sofa bed)","Breakfast included","","","","Superb","9.0","83 reviews"
-"Affordable Lux and Cozy 1 bed flat in Chelsea","Kensington and Chelsea, London Show on map","-0.181044,51.485709","4.5 km from centre","","€ 164","1 night, 1 adult","Studio Apartment","1 double bed","","FREE cancellation","","","Superb","9.0","61 reviews"
-"2 Bedrooms Modern Apartment, Lounge, Full Kitchen, Balcony, 5 minutes Stratford Station","Newham, London Show on map","0.000845,51.545358399908","9 km from centre","","€ 250","1 night, 1 adult","Two-Bedroom Apartment","8 beds
-(5 singles, 1 double, 2 sofa beds)","","","","","Superb","9.1","18 reviews"
-"Kensington W8","Kensington and Chelsea, London Show on map","-0.192823786508143,51.4959166569526","4.7 km from centre","","€ 436","1 night, 1 adult","Apartment with Balcony","4 beds
-(1 extra-large double, 2 sofa beds, 1 large double)","","","","","Superb","9.4","79 reviews"
-"Modern ★★★★★ Top Floor Studio Apartment Getaway","Brent, London Show on map","-0.27591,51.547674","11 km from centre","5 stars","€ 175","1 night, 1 adult","Apartment","1 double bed","","","","","Superb","9.4","18 reviews"
-"Chelsea / Imperial Wharf - Bright, modern, sunset view apartment","Hammersmith and Fulham, London Show on map","-0.1836029,51.4732787","5 km from centre","","€ 207","1 night, 1 adult","Two-Bedroom Apartment","3 beds
-(1 single, 1 sofa bed, 1 large double)","","","","","Superb","9.4","4 reviews"
-"The Grafton Arms Pub & Rooms","Camden, London Show on map","-0.13869,51.523209","1.9 km from centre","","€ 216","1 night, 1 adult","Deluxe Double Room","1 double bed","","","","","Superb","9.3","356 reviews"
-"Double bedroom apartment","Hammersmith and Fulham, London Show on map","-0.234113931655884,51.4929257529777","7 km from centre","","€ 278","1 night, 1 adult","Apartment - Split Level","3 beds
-(1 single, 1 double, 1 extra-large double)","","","","","Superb","9.2","54 reviews"
-"Westbourne Terrace","Westminster Borough, London Show on map","-0.178849697113037,51.5149907809284","3.6 km from centre","5 stars","€ 135","1 night, 1 adult","One-Bedroom Apartment","3 beds
-(1 double, 2 sofa beds)","","","","","Superb","9.1","70 reviews"
-"Second Nest Hampton Street","Southwark, London Show on map","-0.101403594017029,51.4919838781749","2.5 km from centre","4 stars","€ 350","1 night, 1 adult","Superior Apartment","4 large double beds","","","","","Superb","9.4","5 reviews"
-"Marden House","Tower Hamlets, London Show on map","-0.0648449,51.5145294","4.5 km from centre","","€ 162","1 night, 1 adult","One-Bedroom Apartment","2 beds
-(1 double, 1 sofa bed)","","","","","Superb","9.4","5 reviews"
-"Central London Bed & Breakfast","Westminster Borough, London Show on map","-0.146106,51.517897","1.8 km from centre","","€ 164","1 night, 1 adult","Deluxe King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.3","14 reviews"
-"Camden Apartment","Camden, London Show on map","-0.140220726494,51.534919087286","3.2 km from centre","","€ 131","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","Exceptional","10","3 reviews"
-"Aldgate residence","Tower Hamlets, London Show on map","-0.069124097826,51.516531843705","4.2 km from centre","","€ 162","1 night, 1 adult","Two-Bedroom Apartment","2 double beds","","","","","Exceptional","10","3 reviews"
-"Stunning Two Bed Flat","Kensington and Chelsea, London Show on map","-0.176044,51.482654","4.3 km from centre","4 stars","€ 333","1 night, 1 adult","Apartment","2 extra-large double beds","","","","","Exceptional","9.6","35 reviews"
-"Staybridge Suites London-Vauxhall","Lambeth, London Show on map","-0.119116355819642,51.4912632794569","1.9 km from centre","4-star hotel","€ 129","1 night, 1 adult","Standard Suite","1 large double bed","Breakfast included","FREE cancellation","","","Superb","9.0","738 reviews"
-"Aircondition 2 beds 2 baths Victoria Station","Westminster Borough, London Show on map","-0.135590984096825,51.4964258861898","1.4 km from centre","","€ 376","1 night, 1 adult","Two-Bedroom Apartment","7 beds
-(2 doubles, 2 sofa beds, 3 futons)","","","","","Exceptional","9.6","3 reviews"
-"Chelsea Bridge Wharf Beautiful and spacious","Wandsworth, London Show on map","-0.1484232705,51.481043194579","3.3 km from centre","","€ 365","1 night, 1 adult","Two-Bedroom Apartment","4 beds
-(2 singles, 1 double, 1 sofa bed)","","","","","Exceptional","9.8","5 reviews"
-"Cosy Place","Newham, London Show on map","0.058995,51.51899","13 km from centre","","€ 65","1 night, 1 adult","Deluxe Double Room","1 large double bed","","","","","Superb","9.1","4 reviews"
-"Cavendish House","Westminster Borough, London Show on map","-0.147457,51.519176","1.9 km from centre","","€ 172","1 night, 1 adult","One-Bedroom Apartment","2 beds
-(1 sofa bed, 1 large double)","","FREE cancellation","","","Superb","9.0","3 reviews"
-"The Chronicle","City of London, London Show on map","-0.109598,51.516969","1.6 km from centre","4 stars","€ 189","1 night, 1 adult","Studio","1 large double bed","","","","","Superb","9.0","161 reviews"
-"Amba Hotel Charing Cross","Westminster Borough, London Show on map","-0.124787092208862,51.5086506420377","250 m from centre","4-star hotel","€ 256","1 night, 1 adult","Standard Double Room","1 double bed","","FREE cancellation","","","Superb","9.0","2,589 reviews"
-"Georgian Superstar","Lambeth, London Show on map","-0.108769009821685,51.5050570353963","1.4 km from centre","","€ 579","1 night, 1 adult","Two-Bedroom House","3 beds
-(1 extra-large double, 1 sofa bed, 1 large double)","","","","","Exceptional","9.7","12 reviews"
-"Modern lovely bedroom close to stations in East London, zone 2","Tower Hamlets, London Show on map","-0.025123,51.531224","7 km from centre","","€ 38","1 night, 1 adult","Deluxe Double Room","1 double bed","","","","","Exceptional","9.9","5 reviews"
-"Taj 51 Buckingham Gate Suites and Residences","Westminster Borough, London Show on map","-0.13713039463255,51.4985339723427","1.2 km from centre","5-star hotel","€ 409","1 night, 1 adult","Kings Junior Suite","1 large double bed","","FREE cancellation","","","Superb","9.2","218 reviews"
-"Native Monument","City of London, London Show on map","-0.0841946521843511,51.5097609621981","3 km from centre","4 stars","€ 148","1 night, 1 adult","Premium Studio Apartment","1 double bed","","","","","Superb","9.0","470 reviews"
-"Bulgari Hotel, London","Westminster Borough, London Show on map","-0.162823498249054,51.5016403030063","2.5 km from centre","5-star hotel","€ 818","1 night, 1 adult","Superior King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.3","83 reviews"
-"Pancras Parlour","Camden, London Show on map","-0.116539500000044,51.5297807572034","2.6 km from centre","4 stars","€ 172","1 night, 1 adult","One-Bedroom House","1 double bed","","","","","Exceptional","9.5","94 reviews"
-"Redchurch Townhouse","Tower Hamlets, London Show on map","-0.074282,51.52419","4.2 km from centre","5-star hotel","€ 387","1 night, 1 adult","King Room","1 large double bed","Breakfast included","","","","Exceptional","9.5","393 reviews"
-"Central London Apartment - Great Location","Westminster Borough, London Show on map","-0.136019000000033,51.5183508","1.4 km from centre","5 stars","€ 229","1 night, 1 adult","Apartment","2 beds
-(1 double, 1 sofa bed)","","","","","Superb","9.2","382 reviews"
-"The Berkeley","Westminster Borough, London Show on map","-0.155844390392303,51.5017187766896","2.1 km from centre","5-star hotel","€ 524","1 night, 1 adult","Superior Single Room","1 single bed","","FREE cancellation","","","Superb","9.2","135 reviews"
-"The Rosebery Aparthotel","Islington, London Show on map","-0.111239925026894,51.5235567566082","2.1 km from centre","4 stars","€ 182","1 night, 1 adult","Studio Suite","1 large double bed","","","","","Superb","9.0","172 reviews"
-"The Henrietta Hotel","Westminster Borough, London Show on map","-0.123821464418029,51.5109203317755","500 m from centre","4-star hotel","€ 298","1 night, 1 adult","Superior Double or Twin Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.3","210 reviews"
-"45 Park Lane - Dorchester Collection","Westminster Borough, London Show on map","-0.151811689138412,51.5064962337301","1.7 km from centre","5-star hotel","€ 976","1 night, 1 adult","Deluxe King Room","2 beds
-(1 extra-large double, 1 futon)","","","","","Exceptional","9.5","62 reviews"
+"name","location","coords","how_far","stars","promotion","price","price_for","room_type","beds","breakfast","cancellation","checkin","checkout","rating_title","rating","number_of_ratings"
+"Arlo SoHo","SoHo, New York","-74.0079333214264,40.724398960614","5 km from centre","4-star hotel ","PROMOTED","€ 298","1 night, 1 adult","Twin Bunk Room Two Beds with City View","2 bunk beds","","","","","Fabulous","8.6","2,498 reviews"
+"Aliz Hotel Times Square","Hell's Kitchen, New York","-73.991741,40.756123","1.6 km from centre","4-star hotel","","€ 458","1 night, 1 adult","Deluxe Guest Room with Balcony","1 extra-large double bed","","FREE cancellation","","","Very good","8.3","3,252 reviews"
+"Four Points by Sheraton Midtown - Times Square","Hell's Kitchen, New York","-73.9922855794429,40.7564629519902","1.6 km from centre","4-star hotel","","€ 251","1 night, 1 adult","King Suite","2 beds
+(1 extra-large double, 1 sofa bed)","","","","","Very good","8.3","2,080 reviews"
+"MOXY NYC Times Square","Manhattan, New York","-73.989375,40.752419","1.9 km from centre","4-star hotel","","€ 206","1 night, 1 adult","Guest Room with 2 Bunk Beds","","Breakfast included","FREE cancellation","","","Very good","8.5","7,065 reviews"
+"Tulsi Haven Luxury Manhattan Apartment","Lower East Side, New York","-73.985827,40.720966","5 km from centre","","","€ 207","1 night, 1 adult","Triple Room with Private Bathroom","2 beds
+(1 double, 1 sofa bed)","","","","","Very good","8.4","5 reviews"
+"Days Hotel by Wyndham on Broadway NYC","Upper West Side, New York","-73.9722434431314,40.7932350720951","3 km from centre","2-star hotel","","€ 202","1 night, 1 adult","Queen Business Suite, Premier Club, Non-Smoking","1 large double bed","","FREE cancellation","","","Review score","6.2","3,646 reviews"
+"Citadines Connect Fifth Avenue New York","Manhattan, New York","-73.9801412075758,40.7557513277007","1.4 km from centre","3-star hotel","","€ 428","1 night, 1 adult","Premier One Bedroom Suite","2 beds
+(1 extra-large double, 1 sofa bed)","Breakfast included","FREE cancellation","","","Very good","8.4","4,034 reviews"
+"Hotel 50 Bowery","Chinatown, New York","-73.9967894,40.7159364","5 km from centre","4-star hotel ","PROMOTED","€ 201","1 night, 1 adult","Double Room","2 double beds","","FREE cancellation","","","Fabulous","8.9","1,580 reviews"
+"The Bernic Hotel New York City,Tapestry Collection by Hilton","Midtown East, New York","-73.972685,40.7544645089871","1.8 km from centre","4-star hotel","","€ 244","1 night, 1 adult","King Studio Suite with Sofa Bed","2 beds
+(1 extra-large double, 1 sofa bed)","","FREE cancellation","","","Fabulous","8.7","646 reviews"
+"Fairfield Inn & Suites by Marriott New York Manhattan/Times Square South","Hell's Kitchen, New York","-73.993972,40.754011","1.9 km from centre","3-star hotel","","€ 206","1 night, 1 adult","Executive Queen Room with Two Queen Beds","2 large double beds","Breakfast included","FREE cancellation","","","Very good","8.5","1,272 reviews"
+"TheBlueNewYork","NoMad, New York","-73.9878074,40.747211","2.4 km from centre","","","€ 462","1 night, 1 adult","One-Bedroom Apartment","3 beds
+(2 doubles, 1 sofa bed)","","","","","","",""
+"Hudson Yards 30 Day Rentals","Chelsea, New York","-74.0016497,40.75211","2.5 km from centre","","","€ 1,410","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 sofa bed, 1 large double)","","","","","","",""
+"Edgewater Landing Manhattan 30 Day Stays","Upper West Side, New York","-73.9833243,40.7840425","1.8 km from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Gershwin Theatre 30 Day stays","Hell's Kitchen, New York","-73.9875836,40.7627665","800 m from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Moxy NYC Chelsea","Chelsea, New York","-73.991064,40.746336","2.5 km from centre","4-star hotel","","€ 204","1 night, 1 adult","Double Room with Two Double Bed - City View","2 double beds","","FREE cancellation","","","Fabulous","8.7","891 reviews"
+"The Grand NYC Apartments","NoMad, New York","-73.9882025515899,40.7473687447177","2.4 km from centre","1 stars","","€ 202","1 night, 1 adult","Studio Apartment - 632","3 beds
+(1 single, 2 doubles)","","","","","Review score","5.7","917 reviews"
+"Homewood Suites Midtown Manhattan Times Square South","Hell's Kitchen, New York","-73.9930578601189,40.75441122705","1.8 km from centre","3-star hotel","","€ 203","1 night, 1 adult","Queen Studio with 2 Queen Beds-Roll-In Shower - Disability Access","2 large double beds","Breakfast included","FREE cancellation","","","Fabulous","8.8","1,405 reviews"
+"Sixty LES","Lower East Side, New York","-73.9885881543158,40.7220326386537","5 km from centre","4-star hotel","","€ 215","1 night, 1 adult","Deluxe Double Room","1 double bed","","FREE cancellation","","","Very good","8.0","758 reviews"
+"Penthouse Luxury","Hell's Kitchen, New York","-73.996072341,40.759043820265","1.6 km from centre","","","€ 888","1 night, 1 adult","Two-Bedroom Apartment","2 double beds","","","","","","",""
+"Hampton Inn Manhattan - Times Square South","Hell's Kitchen, New York","-73.992964848876,40.7561800301835","1.6 km from centre","3-star hotel","","€ 206","1 night, 1 adult","Double Room with Two Double Beds","2 double beds","Breakfast included","FREE cancellation","","","Very good","8.3","1,386 reviews"
+"Residence Inn by Marriott New York Manhattan/ Midtown Eastside","Midtown East, New York","-73.9725317806005,40.7548197537708","1.7 km from centre","4-star hotel","","€ 239","1 night, 1 adult","One-Bedroom King Suite with Sofa Bed","2 beds
+(1 extra-large double, 1 sofa bed)","Breakfast included","FREE cancellation","","","Fabulous","8.9","333 reviews"
+"SoHo 54","SoHo, New York","-74.0052051097155,40.7237396622533","5 km from centre","3-star hotel","","€ 206","1 night, 1 adult","SoHo Two Double","2 double beds","","FREE cancellation","","","Good","7.7","2,258 reviews"
+"Doubletree By Hilton New York Times Square West","Hell's Kitchen, New York","-73.9930698658,40.7568016379","1.6 km from centre","4-star hotel","","€ 206","1 night, 1 adult","Two Double Beds City View","2 double beds","Breakfast included","FREE cancellation","","","Good","7.9","3,252 reviews"
+"Diplomatic Square 30 Day Rentals","Midtown East, New York","-73.9699186,40.7525126","2 km from centre","","","€ 1,022","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","","",""
+"Freehand New York","Gramercy, New York","-73.9842543,40.7398336","3.1 km from centre","4-star hotel","","€ 498","1 night, 1 adult","Gallery Suite","5 beds
+(4 bunk beds, 1 large double)","","","","","Fabulous","8.6","1,280 reviews"
+"Millennium Hilton New York One UN Plaza","Midtown East, New York","-73.9696202427149,40.7505599478949","2.2 km from centre","4-star hotel","","€ 202","1 night, 1 adult","Double Room with Two Double Beds and City View","2 double beds","","FREE cancellation","","","Very good","8.4","2,295 reviews"
+"Mid Town East 28th Street Apartments Next to Times Square","NoMad, New York","-73.983022,40.742313","2.9 km from centre","3 stars","","€ 367","1 night, 1 adult","Two-Bedroom Apartment","3 beds
+(2 doubles, 1 sofa bed)","","","","","Review score","6.8","29 reviews"
+"The Roosevelt Hotel","Midtown East, New York","-73.9773765237427,40.7546543465001","1.6 km from centre","4-star hotel","","€ 206","1 night, 1 adult","Cozy Queen Room","1 large double bed","","FREE cancellation","","","Good","7.1","4,745 reviews"
+"The Harlem Pearl","Harlem, New York","-73.942055,40.809035","5 km from centre","","","€ 248","1 night, 1 adult","Apartment with Garden View","4 beds
+(2 doubles, 2 sofa beds)","","","","","Fabulous","8.7","200 reviews"
+"Hotel Hendricks","Manhattan, New York","-73.984059,40.751812","1.9 km from centre","4-star hotel","","€ 201","1 night, 1 adult","Deluxe Double Double","2 double beds","","FREE cancellation","","","Fabulous","8.6","295 reviews"
+"Off SoHo Suites Hotel","Lower East Side, New York","-73.9926275610924,40.7212784648347","5 km from centre","2-star hotel","","€ 310","1 night, 1 adult","Deluxe Suite with Sofa Bed and Accessible Bathtub","2 beds
+(1 sofa bed, 1 large double)","","FREE cancellation","","","Good","7.8","284 reviews"
+"Millennium Hilton New York Downtown","Wall Street - Financial District, New York","-74.0104582160711,40.7111969220929","6 km from centre","4-star hotel","","€ 201","1 night, 1 adult","Double Room - Mobility Accessible with Bath Tub","2 double beds","","FREE cancellation","","","Very good","8.4","1,611 reviews"
+"DoubleTree by Hilton New York Downtown","Wall Street - Financial District, New York","-74.012379348278,40.7039428170782","7 km from centre","4-star hotel","","€ 211","1 night, 1 adult","Double Room with Two Double Beds with City View","2 double beds","Breakfast included","FREE cancellation","","","Good","7.9","2,322 reviews"
+"Renaissance New York Chelsea Hotel","Chelsea, New York","-73.992686,40.744286","2.8 km from centre","4-star hotel","","€ 201","1 night, 1 adult","Guest Room, 1 King City View","1 extra-large double bed","Breakfast included","FREE cancellation","","","Very good","8.4","9 reviews"
+"Hotel Riu Plaza New York Times Square","Hell's Kitchen, New York","-73.988439,40.760248","1.1 km from centre","4-star hotel","","€ 208","1 night, 1 adult","Deluxe Double Room with Two Double Beds","2 double beds","Breakfast included","FREE cancellation","","","Fabulous","8.7","3,293 reviews"
+"Millennium Premier New York Times Square","Manhattan, New York","-73.9848648,40.7571164","1.2 km from centre","4-star hotel","","€ 205","1 night, 1 adult","Executive Queen Room","1 large double bed","Breakfast included","FREE cancellation","","","Good","7.9","863 reviews"
+"Hotel 50 Bowery","Chinatown, New York","-73.9967894,40.7159364","5 km from centre","4-star hotel ","PROMOTED","€ 201","1 night, 1 adult","Double Room","2 double beds","","FREE cancellation","","","Fabulous","8.9","1,580 reviews"
+"Le Meridien New York, Central Park","Manhattan, New York","-73.978447,40.764494","500 m from centre","5-star hotel","","€ 227","1 night, 1 adult","Guest Room, 1 King, Manhattan Style Cozy King","1 extra-large double bed","","","","","Good","7.4","483 reviews"
+"Sheraton New York Times Square Hotel","Manhattan, New York","-73.9818906784058,40.7626559458167","650 m from centre","4-star hotel","","€ 206","1 night, 1 adult","Traditional, Guest room, 1 Queen","1 large double bed","","FREE cancellation","","","Good","7.7","783 reviews"
+"Hudson New York","Hell's Kitchen, New York","-73.9849349856377,40.7682445347188","300 m from centre","3-star hotel","","€ 212","1 night, 1 adult","Double Studio","2 double beds","","FREE cancellation","","","Review score","6.9","8,686 reviews"
+"Hotel Newton","Upper West Side, New York","-73.9723192155361,40.7935782469819","3 km from centre","3-star hotel","","€ 201","1 night, 1 adult","Deluxe Junior Suite","2 large double beds","","FREE cancellation","","","Very good","8.1","1,463 reviews"
+"The Allen Hotel","Lower East Side, New York","-73.9907928,40.7180836","5 km from centre","4-star hotel","","€ 238","1 night, 1 adult","Suite with City View","1 extra-large double bed","","FREE cancellation","","","Very good","8.4","854 reviews"
+"Millennium Times Square New York","Manhattan, New York","-73.9848062396049,40.7568962212921","1.3 km from centre","4-star hotel","","€ 211","1 night, 1 adult","Deluxe Double Room with Two Double Beds","2 double beds","","FREE cancellation","","","Good","7.6","2,719 reviews"
+"Renaissance New York Midtown Hotel","Manhattan, New York","-73.991259,40.751629","2 km from centre","4-star hotel","","€ 216","1 night, 1 adult","Queen Room with Two Queen Beds","2 large double beds","","FREE cancellation","","","Fabulous","8.9","632 reviews"
+"Radisson Hotel New York Midtown-Fifth Avenue","Manhattan, New York","-73.9783528447151,40.7599295352507","1 km from centre","4-star hotel","","€ 206","1 night, 1 adult","Premium Queen Room - Non-Smoking","1 large double bed","","FREE cancellation","","","Good","7.9","1,799 reviews"
+"Archer Hotel New York","Manhattan, New York","-73.984735,40.75206","1.8 km from centre","4-star hotel","","€ 216","1 night, 1 adult","Double Room with Two Double Beds - Empire View","2 double beds","","FREE cancellation","","","Fabulous","8.9","1,189 reviews"
+"Courtyard New York Manhattan/Midtown East","Midtown East, New York","-73.9699025452136,40.7573569160338","1.6 km from centre","4-star hotel","","€ 206","1 night, 1 adult","Queen Room with Two Queen Beds","2 large double beds","","FREE cancellation","","","Fabulous","8.6","654 reviews"
+"Hilton Garden Inn New York Manhattan Midtown East","Midtown East, New York","-73.9693312533564,40.7567407791641","1.6 km from centre","3-star hotel","","€ 202","1 night, 1 adult","Queen Room with Two Queen Beds with City View","2 large double beds","","FREE cancellation","","","Very good","8.5","816 reviews"
+"Residence Inn by Marriott New York Manhattan/Central Park","Manhattan, New York","-73.9825881838532,40.7640934641784","450 m from centre","4-star hotel","","€ 208","1 night, 1 adult","King Studio","1 extra-large double bed","Breakfast included","FREE cancellation","","","Fabulous","8.6","1,542 reviews"
+"SIXTY SoHo","SoHo, New York","-74.0030864998698,40.7239531006482","5 km from centre","5-star hotel","","€ 209","1 night, 1 adult","Superior King Room","1 extra-large double bed","","FREE cancellation","","","Fabulous","8.7","636 reviews"
+"Executive Hotel Le Soleil New York","Manhattan, New York","-73.9854139873379,40.7503358007877","2 km from centre","4-star hotel","","€ 202","1 night, 1 adult","Executive Queen Suite with Sofa Bed","2 beds
+(1 sofa bed, 1 large double)","Breakfast included","FREE cancellation","","","Fabulous","8.6","2,124 reviews"
+"Residence Inn by Marriott New York Downtown Manhattan/World Trade Center Area","Wall Street - Financial District, New York","-74.0098532833977,40.7096996967647","6 km from centre","4-star hotel","","€ 267","1 night, 1 adult","Maiden Lane Corner Studio with Two Queen Beds, Low Floor","3 beds
+(1 sofa bed, 2 large doubles)","Breakfast included","FREE cancellation","","","Fabulous","8.6","408 reviews"
+"Hotel Beacon","Upper West Side, New York","-73.9812295138836,40.7807079748045","1.4 km from centre","4-star hotel","","€ 218","1 night, 1 adult","King Studio","1 extra-large double bed","","FREE cancellation","","","Fabulous","8.9","1,510 reviews"
+"Carnegie Hotel","Manhattan, New York","-73.9800860165155,40.7645825694967","450 m from centre","4-star hotel","","€ 201","1 night, 1 adult","Superior Queen Room","1 large double bed","Breakfast included","FREE cancellation","","","Fabulous","8.9","872 reviews"
+"TRYP by Wyndham Times Square South","Hell's Kitchen, New York","-73.9946506172419,40.7537083496944","1.9 km from centre","4-star hotel","","€ 217","1 night, 1 adult","Double Room","2 large double beds","","FREE cancellation","","","Very good","8.2","2,652 reviews"
+"The Marmara Manhattan","Upper East Side, New York","-73.9475255459547,40.7828892426192","3.4 km from centre","3-star hotel","","€ 206","1 night, 1 adult","One-Bedroom Suite","2 beds
+(1 sofa bed, 1 large double)","","FREE cancellation","","","Very good","8.4","334 reviews"
+"Mr C Seaport","Wall Street - Financial District, New York","-74.0014523640275,40.70798144477","6 km from centre","5-star hotel","","€ 257","1 night, 1 adult","Courtyard King Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.0","337 reviews"
+"The William","Murray Hill, New York","-73.9802179153443,40.7505206589225","2 km from centre","4-star hotel","","€ 259","1 night, 1 adult","Double Studio with Two Double Beds","2 double beds","","FREE cancellation","","","Fabulous","8.8","509 reviews"
+"The New Yorker, A Wyndham Hotel","Hell's Kitchen, New York","-73.9933524280787,40.7526284209899","2 km from centre","4-star hotel","","€ 285","1 night, 1 adult","Queen Suite","2 beds
+(1 sofa bed, 1 large double)","","FREE cancellation","","","Good","7.9","6,684 reviews"
+"Wyndham Garden Chinatown","Chinatown, New York","-73.9953312277794,40.7170337908101","5 km from centre","4-star hotel","","€ 202","1 night, 1 adult","Premium Queen Room, Second Floor","1 large double bed","","FREE cancellation","","","Very good","8.1","194 reviews"
+"City Club Hotel","Manhattan, New York","-73.9822279661893,40.7557878995844","1.4 km from centre","4-star hotel","","€ 208","1 night, 1 adult","Luxe 2 Double Beds Room","3 beds
+(1 single, 2 doubles)","Breakfast included","FREE cancellation","","","Very good","8.2","671 reviews"
+"Ink 48","Hell's Kitchen, New York","-73.9958830922842,40.7644706127656","1.2 km from centre","5-star hotel","","€ 206","1 night, 1 adult","Deluxe Queen Room with Two Queen Beds","2 large double beds","","FREE cancellation","","","Very good","8.4","417 reviews"
+"Courtyard by Marriott New York Manhattan/Central Park","Manhattan, New York","-73.9828053116798,40.7642211773125","450 m from centre","4-star hotel","","€ 221","1 night, 1 adult","King Room -  City View","1 extra-large double bed","","FREE cancellation","","","Very good","8.4","4,639 reviews"
+"The Manhattan Club","Manhattan, New York","-73.9811463654041,40.764991183979","350 m from centre","4-star hotel","","€ 204","1 night, 1 adult","Executive Junior Suite","2 beds
+(1 sofa bed, 1 large double)","","FREE cancellation","","","Very good","8.4","1,506 reviews"
+"W New York - Union Square","Union Square, New York","-73.9887718856335,40.7366646634646","3.5 km from centre","5-star hotel","","€ 308","1 night, 1 adult","Wonderful Guest Room, Guest room, 1 King, City view","1 extra-large double bed","","FREE cancellation","","","Very good","8.5","149 reviews"
+"Park West 30 Day Stays","Upper West Side, New York","-73.95928,40.7996","4 km from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Jackson Square 30 Day Stays","Chelsea, New York","-74.0014676,40.7419877","3.4 km from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"South West Manhattan Valley 30 Days Rentals","Upper West Side, New York","-73.9716408,40.7943677","3 km from centre","","","€ 1,022","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","","",""
+"The Kimpton Muse Hotel","Manhattan, New York","-73.983714915812,40.7578851618635","1.1 km from centre","5-star hotel ","PROMOTED","€ 204","1 night, 1 adult","Premier Room with Two Queen Beds","2 large double beds","","FREE cancellation","","","Very good","8.5","386 reviews"
+"citizenM New York Times Square","Manhattan, New York","-73.9850216441803,40.7615731895647","800 m from centre","4-star hotel","","€ 205","1 night, 1 adult","King Room - High Floor City View","1 extra-large double bed","Breakfast included","FREE cancellation","","","Superb","9.1","4,287 reviews"
+"6 Columbus Central Park Hotel","Hell's Kitchen, New York","-73.9831700921059,40.7675558899362","150 m from centre","4-star hotel","","€ 235","1 night, 1 adult","Superior Queen Room","1 large double bed","","FREE cancellation","","","Good","7.7","423 reviews"
+"Fifty Hotel & Suites by Affinia","Midtown East, New York","-73.9710961282253,40.756066251595","1.6 km from centre","4-star hotel","","€ 207","1 night, 1 adult","Queen Studio with Two Queen Beds","2 large double beds","","FREE cancellation","","","Very good","8.4","533 reviews"
+"Hotel Indigo Lower East Side","Lower East Side, New York","-73.987496,40.721723","5 km from centre","4-star hotel","","€ 207","1 night, 1 adult","Deluxe Queen Room with View","1 large double bed","","FREE cancellation","","","Very good","8.4","874 reviews"
+"Floor to ceiling NYC","East Harlem, New York","-73.9402875,40.807916","5 km from centre","","","€ 563","1 night, 1 adult","Two-Bedroom Apartment","2 double beds","","","","","","",""
+"Residence Inn by Marriott New York Manhattan/Times Square","Manhattan, New York","-73.9858053624629,40.7528884994968","1.8 km from centre","4-star hotel","","€ 208","1 night, 1 adult","King Studio with Sofa Bed","2 beds
+(1 extra-large double, 1 sofa bed)","Breakfast included","FREE cancellation","","","Very good","8.3","3,479 reviews"
+"Concorde Hotel New York","Midtown East, New York","-73.970399,40.760003","1.4 km from centre","4-star hotel","","€ 202","1 night, 1 adult","Premier King Guestroom","1 extra-large double bed","","FREE cancellation","","","Superb","9.0","2,142 reviews"
+"Hilton Garden Inn West 35th Street","Manhattan, New York","-73.9866720512509,40.7502927484947","2 km from centre","3-star hotel","","€ 206","1 night, 1 adult","Double Room with City View","2 double beds","","FREE cancellation","","","Fabulous","8.6","1,506 reviews"
+"Le Meridien New York, Central Park","Manhattan, New York","-73.978447,40.764494","500 m from centre","5-star hotel","","€ 227","1 night, 1 adult","Guest Room, 1 King, Manhattan Style Cozy King","1 extra-large double bed","","","","","Good","7.4","483 reviews"
+"Renaissance New York Midtown Hotel","Manhattan, New York","-73.991259,40.751629","2 km from centre","4-star hotel","","€ 216","1 night, 1 adult","Queen Room with Two Queen Beds","2 large double beds","","FREE cancellation","","","Fabulous","8.9","632 reviews"
+"Embassy Suites By Hilton New York Manhattan Times Square","Manhattan, New York","-73.985115,40.751113","1.9 km from centre","4-star hotel","","€ 202","1 night, 1 adult","King Studio Suite","2 beds
+(1 extra-large double, 1 sofa bed)","Breakfast included","FREE cancellation","","","Very good","8.3","1,149 reviews"
+"The Grand NYC Apartments","NoMad, New York","-73.9882025515899,40.7473687447177","2.4 km from centre","1 stars","","€ 202","1 night, 1 adult","Studio Apartment - 632","3 beds
+(1 single, 2 doubles)","","","","","Review score","5.7","917 reviews"
+"San Carlos Hotel New York","Midtown East, New York","-73.9714676141738,40.7561840937009","1.6 km from centre","4-star hotel","","€ 206","1 night, 1 adult","Deluxe King Room","1 extra-large double bed","","FREE cancellation","","","Fabulous","8.8","383 reviews"
+"The Gallivant Times Square","Manhattan, New York","-73.9862586557865,40.7606192748693","950 m from centre","4-star hotel","","€ 208","1 night, 1 adult","Twin Room with Two Twin Beds","2 single beds","","FREE cancellation","","","Good","7.2","4,686 reviews"
+"Heritage Hotel New York City","Flatiron District, New York","-73.9900456269837,40.7433511574687","2.9 km from centre","3-star hotel","","€ 206","1 night, 1 adult","King Room - Non-Smoking","1 extra-large double bed","","FREE cancellation","","","Good","7.4","2,510 reviews"
+"W New York - Union Square","Union Square, New York","-73.9887718856335,40.7366646634646","3.5 km from centre","5-star hotel","","€ 308","1 night, 1 adult","Wonderful Guest Room, Guest room, 1 King, City view","1 extra-large double bed","","FREE cancellation","","","Very good","8.5","149 reviews"
+"Shelburne Hotel & Suites by Affinia","Murray Hill, New York","-73.9777771756054,40.7484319746091","2.2 km from centre","4-star hotel","","€ 211","1 night, 1 adult","Deluxe Studio","1 large double bed","","FREE cancellation","","","Very good","8.3","475 reviews"
+"JW Marriott Essex House New York","Manhattan, New York","-73.9783729612827,40.7664071170503","350 m from centre","5-star hotel","","€ 410","1 night, 1 adult","King Room","1 extra-large double bed","","FREE cancellation","","","Very good","8.3","244 reviews"
+"Shoreham Hotel","Manhattan, New York","-73.9763680100441,40.7624213001252","800 m from centre","4-star hotel","","€ 204","1 night, 1 adult","Standard Double Room","2 double beds","","FREE cancellation","","","Good","7.7","1,183 reviews"
+"Leo House","Chelsea, New York","-73.9997662761269,40.7457037269316","3 km from centre","3-star hotel","","€ 264","1 night, 1 adult","Family Room","3 beds
+(2 singles, 1 double)","Breakfast included","","","","Very good","8.4","2,499 reviews"
+"HUGE Chelsea Home 4 bedrooms 2 BATH","Hell's Kitchen, New York","-73.9958861,40.7501967","2.4 km from centre","","","€ 915","1 night, 1 adult","Apartment","4 double beds","","FREE cancellation","","","","",""
+"The High Line Hotel","Chelsea, New York","-74.0049697458744,40.7458906108336","3.1 km from centre","4-star hotel","","€ 222","1 night, 1 adult","Standard King","1 extra-large double bed","","FREE cancellation","","","Very good","8.2","177 reviews"
+"Off SoHo Suites Hotel","Lower East Side, New York","-73.9926275610924,40.7212784648347","5 km from centre","2-star hotel","","€ 310","1 night, 1 adult","Deluxe Suite with Sofa Bed and Accessible Bathtub","2 beds
+(1 sofa bed, 1 large double)","","FREE cancellation","","","Good","7.8","284 reviews"
+"The Mark New York","Upper East Side, New York","-73.9634317159653,40.7753326920934","1.8 km from centre","5-star hotel","","€ 763","1 night, 1 adult","Madison King Bed Room","1 extra-large double bed","","FREE cancellation","","","Superb","9.2","132 reviews"
+"The Harlem Pearl","Harlem, New York","-73.942055,40.809035","5 km from centre","","","€ 248","1 night, 1 adult","Apartment with Garden View","4 beds
+(2 doubles, 2 sofa beds)","","","","","Fabulous","8.7","200 reviews"
+"Four Points by Sheraton Manhattan Chelsea","Chelsea, New York","-73.9941604435444,40.7450409955895","2.8 km from centre","3-star hotel","","€ 212","1 night, 1 adult","Guest room, 2 Queen, Corner room, High floor","2 large double beds","Breakfast included","FREE cancellation","","","Very good","8.1","744 reviews"
+"Staypineapple, an Artful Hotel, Midtown New York","Hell's Kitchen, New York","-73.993907,40.754349","1.9 km from centre","4-star hotel","","€ 262","1 night, 1 adult","Fashionista Connectors","2 extra-large double beds","","FREE cancellation","","","Fabulous","8.7","266 reviews"
+"Sohotel","SoHo, New York","-73.9946600049735,40.7194956533958","5 km from centre","3-star hotel","","€ 205","1 night, 1 adult","Standard Family Room","3 beds
+(1 single, 2 large doubles)","","FREE cancellation","","","Very good","8.5","1,168 reviews"
+"Hyatt House New York/Chelsea","Chelsea, New York","-73.990701,40.746288","2.5 km from centre","3-star hotel","","€ 239","1 night, 1 adult","Den Guestroom King Bed","1 extra-large double bed","Breakfast included","FREE cancellation","","","Fabulous","8.8","1,398 reviews"
+"Hotel Hugo","SoHo, New York","-74.0089461207389,40.7263928561455","5 km from centre","4-star hotel","","€ 201","1 night, 1 adult","Deluxe Quadruple Room","2 double beds","","FREE cancellation","","","Good","7.7","863 reviews"
+"Tiffini","Harlem, New York","-73.947044,40.806295","5 km from centre","2 stars","","€ 334","1 night, 1 adult","Two-Bedroom Apartment","3 beds
+(1 double, 1 sofa bed, 1 large double)","","FREE cancellation","","","Fabulous","8.6","86 reviews"
+"The Ridge Hotel","Lower East Side, New York","-73.9893465489149,40.7229463768861","5 km from centre","3-star hotel","","€ 202","1 night, 1 adult","Standard Twin Room","2 single beds","","FREE cancellation","","","Fabulous","8.7","1,101 reviews"
+"Hotel Mulberry","Chinatown, New York","-73.9995194971561,40.7153011826453","6 km from centre","3-star hotel","","€ 206","1 night, 1 adult","Deluxe Queen Room with Two Queen Beds City View","2 large double beds","","FREE cancellation","","","Fabulous","8.7","525 reviews"
+"Hampton Inn Manhattan Grand Central","Midtown East, New York","-73.9722960814834,40.7508281621825","2.1 km from centre","4-star hotel","","€ 213","1 night, 1 adult","Double Room with Two Double Beds with City View","2 double beds","Breakfast included","FREE cancellation","","","Fabulous","8.6","1,217 reviews"
+"The Gallivant Times Square","Manhattan, New York","-73.9862586557865,40.7606192748693","950 m from centre","4-star hotel","","€ 208","1 night, 1 adult","Twin Room with Two Twin Beds","2 single beds","","FREE cancellation","","","Good","7.2","4,686 reviews"
+"Midtown East Large Apartments","Midtown East, New York","-73.9631864,40.7591631","1.9 km from centre","","","€ 421","1 night, 1 adult","Two-Bedroom Apartment","2 large double beds","","","","","Review score","6.3","7 reviews"
+"Harlem Lofts","Harlem, New York","-73.942033,40.809079","5 km from centre","3 stars","","€ 212","1 night, 1 adult","Studio Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","Fabulous","8.8","368 reviews"
+"Walker Hotel Greenwich Village","Greenwich Village, New York","-73.9965851604939,40.7362804456219","3.8 km from centre","4-star hotel","","€ 233","1 night, 1 adult","Queen Room (The Grove)","1 large double bed","","FREE cancellation","","","Fabulous","8.6","655 reviews"
+"Staypineapple, an Artful Hotel, Midtown New York","Hell's Kitchen, New York","-73.993907,40.754349","1.9 km from centre","4-star hotel","","€ 262","1 night, 1 adult","Fashionista Connectors","2 extra-large double beds","","FREE cancellation","","","Fabulous","8.7","266 reviews"
+"420 Friendly Loft 2 Bedroom Sleeps 6 Grand Central","Murray Hill, New York","-73.9768674838912,40.7479279818811","2.3 km from centre","","","€ 716","1 night, 1 adult","Two-Bedroom Apartment","3 double beds","","","","","","",""
+"Soldiers', Sailors', Marines', Coast Guard and Airmens' Club Inn","Murray Hill, New York","-73.978279,40.747987","2.3 km from centre","","","€ 225","1 night, 1 adult","Economy Triple Room with Shared Bathroom","3 single beds","","","","","Good","7.9","167 reviews"
+"Incentra Village Hotel","Greenwich Village, New York","-74.0041900466271,40.7379194154364","3.9 km from centre","3 stars","","€ 202","1 night, 1 adult","India Studio with Full Size Bed and Kitchenette","1 double bed","","FREE cancellation","","","Very good","8.4","116 reviews"
+"The Benjamin","Midtown East, New York","-73.9720214903354,40.7564903806111","1.6 km from centre","5-star hotel","","€ 227","1 night, 1 adult","Queen Room","1 large double bed","","FREE cancellation","","","Very good","8.4","307 reviews"
+"Four Points by Sheraton Manhattan Chelsea","Chelsea, New York","-73.9941604435444,40.7450409955895","2.8 km from centre","3-star hotel","","€ 212","1 night, 1 adult","Guest room, 2 Queen, Corner room, High floor","2 large double beds","Breakfast included","FREE cancellation","","","Very good","8.1","744 reviews"
+"HUGE Chelsea Home 4 bedrooms 2 BATH","Hell's Kitchen, New York","-73.9958861,40.7501967","2.4 km from centre","","","€ 915","1 night, 1 adult","Apartment","4 double beds","","FREE cancellation","","","","",""
+"East Village Comfortable / New Studio Apartment","East Village, New York","-73.98435,40.722735","5 km from centre","2 stars","","€ 329","1 night, 1 adult","Studio Apartment","1 large double bed","","","","","","",""
+"Candlewood Suites NYC -Times Square","Hell's Kitchen, New York","-73.9930352568626,40.7561871413388","1.6 km from centre","3-star hotel","","€ 223","1 night, 1 adult","Queen Room - Hearing Accessible","1 large double bed","","FREE cancellation","","","Very good","8.0","2,089 reviews"
+"Hotel 32 32","Manhattan, New York","-73.9833585172892,40.7461403521485","2.5 km from centre","4-star hotel","","€ 243","1 night, 1 adult","Premium Suite with Two Double Beds with Balcony","2 beds
+(1 double, 1 large double)","","FREE cancellation","","","Very good","8.1","633 reviews"
+"The Harlem Cascades","Harlem, New York","-73.943043,40.809079","5 km from centre","","","€ 217","1 night, 1 adult","One-Bedroom Apartment","3 beds
+(1 double, 2 sofa beds)","","","","","Very good","8.0","154 reviews"
+"Hilton Garden Inn West 35th Street","Manhattan, New York","-73.9866720512509,40.7502927484947","2 km from centre","3-star hotel","","€ 206","1 night, 1 adult","Double Room with City View","2 double beds","","FREE cancellation","","","Fabulous","8.6","1,506 reviews"
+"The Kitano Hotel New York","Murray Hill, New York","-73.9798518642783,40.7495287351601","2.1 km from centre","4-star hotel","","€ 288","1 night, 1 adult","Superior King Room","1 extra-large double bed","","FREE cancellation","","","Fabulous","8.7","846 reviews"
+"The Marmara Park Avenue","Manhattan, New York","-73.9816676245369,40.745346455274","2.5 km from centre","5-star hotel","","€ 204","1 night, 1 adult","Standard Guest Room","1 large double bed","","FREE cancellation","","","Very good","8.2","153 reviews"
+"The Plaza","Manhattan, New York","-73.9742463827133,40.7644335377821","800 m from centre","5-star hotel","","€ 2,668","1 night, 1 adult","The Vanderbilt Suites","3 beds
+(1 extra-large double, 1 sofa bed, 1 large double)","","FREE cancellation","","","Fabulous","8.6","421 reviews"
+"Sohotel","SoHo, New York","-73.9946600049735,40.7194956533958","5 km from centre","3-star hotel","","€ 205","1 night, 1 adult","Standard Family Room","3 beds
+(1 single, 2 large doubles)","","FREE cancellation","","","Very good","8.5","1,168 reviews"
+"Shelburne Hotel & Suites by Affinia","Murray Hill, New York","-73.9777771756054,40.7484319746091","2.2 km from centre","4-star hotel","","€ 211","1 night, 1 adult","Deluxe Studio","1 large double bed","","FREE cancellation","","","Very good","8.3","475 reviews"
+"The Suites at central NYC","NoMad, New York","-73.987945,40.747208","2.4 km from centre","3 stars","","€ 289","1 night, 1 adult","Standard Apartment","1 bunk bed","","","","","Very good","8.1","253 reviews"
+"Apartment in Trendy Lower East Side","Lower East Side, New York","-73.9826662,40.720489850207","5 km from centre","","","€ 412","1 night, 1 adult","Apartment","2 beds
+(1 double, 1 sofa bed)","","FREE cancellation","","","","",""
+"Apartment in Trendy Lower East Side","Lower East Side, New York","-73.9826662,40.720489850207","5 km from centre","","","€ 412","1 night, 1 adult","Apartment","2 beds
+(1 double, 1 sofa bed)","","FREE cancellation","","","","",""
+"Gramercy Park Luxury / NY","Union Square, New York","-73.98776,40.736228","3.6 km from centre","","","€ 378","1 night, 1 adult","Apartment with Balcony","1 large double bed","","","","","","",""
+"420 Friendly! Looks like a Calvin Klein Ad! Sleeps 6 Loft Grand Central","Murray Hill, New York","-73.9771812998221,40.7482671806533","2.2 km from centre","","","€ 564","1 night, 1 adult","Two-Bedroom Apartment","3 double beds","","","","","","",""
+"420 Friendly Loft 2 Bedroom Sleeps 6 Grand Central","Murray Hill, New York","-73.9768674838912,40.7479279818811","2.3 km from centre","","","€ 716","1 night, 1 adult","Two-Bedroom Apartment","3 double beds","","","","","","",""
+"Gild Hall - A Thompson Hotel","Wall Street - Financial District, New York","-74.0072439238429,40.7079270558163","7 km from centre","4-star hotel","","€ 230","1 night, 1 adult","King Room - Disability Access","1 extra-large double bed","","FREE cancellation","","","Fabulous","8.9","525 reviews"
+"Gramercy Park Apartments","Gramercy, New York","-73.9812299970978,40.7364076000689","3.5 km from centre","2 stars","","€ 273","1 night, 1 adult","Studio Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","Review score","6.9","42 reviews"
+"Tulsi Haven Luxury Manhattan Apartment","Lower East Side, New York","-73.985827,40.720966","5 km from centre","","","€ 207","1 night, 1 adult","Triple Room with Private Bathroom","2 beds
+(1 double, 1 sofa bed)","","","","","Very good","8.4","5 reviews"
+"Yorkville Apartments -Upper East Side","Upper East Side, New York","-73.9521163706377,40.7813551861784","3 km from centre","2 stars","","€ 366","1 night, 1 adult","Studio Apartment (Location Varies)","2 beds
+(1 sofa bed, 1 large double)","","","","","Review score","6.8","37 reviews"
+"Midtown East Apartments","Midtown East, New York","-73.966092854002,40.7572293344338","1.8 km from centre","2 stars","","€ 299","1 night, 1 adult","1 Bedroom Apartment","1 large double bed","","","","","Review score","6.7","5 reviews"
+"TheBlueNewYork","NoMad, New York","-73.9878074,40.747211","2.4 km from centre","","","€ 462","1 night, 1 adult","One-Bedroom Apartment","3 beds
+(2 doubles, 1 sofa bed)","","","","","","",""
+"Hudson Yards 30 Day Rentals","Chelsea, New York","-74.0016497,40.75211","2.5 km from centre","","","€ 1,410","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 sofa bed, 1 large double)","","","","","","",""
+"Edgewater Landing Manhattan 30 Day Stays","Upper West Side, New York","-73.9833243,40.7840425","1.8 km from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Gershwin Theatre 30 Day stays","Hell's Kitchen, New York","-73.9875836,40.7627665","800 m from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Diplomatic Square 30 Day Rentals","Midtown East, New York","-73.9699186,40.7525126","2 km from centre","","","€ 1,022","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","","",""
+"Hotel Mulberry","Chinatown, New York","-73.9995194971561,40.7153011826453","6 km from centre","3-star hotel","","€ 206","1 night, 1 adult","Deluxe Queen Room with Two Queen Beds City View","2 large double beds","","FREE cancellation","","","Fabulous","8.7","525 reviews"
+"Park West 30 Day Stays","Upper West Side, New York","-73.95928,40.7996","4 km from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Jackson Square 30 Day Stays","Chelsea, New York","-74.0014676,40.7419877","3.4 km from centre","","","€ 1,174","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"South West Manhattan Valley 30 Days Rentals","Upper West Side, New York","-73.9716408,40.7943677","3 km from centre","","","€ 1,022","1 night, 1 adult","One-Bedroom Apartment","1 double bed","","","","","","",""
+"The Langham, New York, Fifth Avenue By Suiteness","Manhattan, New York","-73.983784,40.750075","2 km from centre","5-star hotel","","€ 1,414","1 night, 1 adult","Suite","4 beds
+(2 sofa beds, 2 large doubles)","","FREE cancellation","","","","",""
+"Holiday home Waverly Place","Greenwich Village, New York","-74.0018774,40.7368243","3.9 km from centre","","","€ 2,867","1 night, 1 adult","Five-Bedroom Holiday Home","8 beds
+(1 single, 6 doubles, 1 sofa bed)","","","","","","",""
+"Midtown East Large Apartments","Midtown East, New York","-73.9631864,40.7591631","1.9 km from centre","","","€ 421","1 night, 1 adult","Two-Bedroom Apartment","2 large double beds","","","","","Review score","6.3","7 reviews"
+"East Village Comfortable / New Studio Apartment","East Village, New York","-73.98435,40.722735","5 km from centre","2 stars","","€ 329","1 night, 1 adult","Studio Apartment","1 large double bed","","","","","","",""
+"Yorkville Corporate Suites","Upper East Side, New York","-73.945674,40.781932","3.5 km from centre","","","€ 397","1 night, 1 adult","Studio Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"6BRS UPPER EAST SIDE, NEXT TO CENTRAL PARK.","East Harlem, New York","-73.9436305,40.7860384","3.8 km from centre","","","€ 1,022","1 night, 1 adult","Apartment","7 beds
+(4 singles, 3 doubles)","","","","","","",""
+"Beautiful Downtown Apartments NYC","Greenwich Village, New York","-73.999671,40.728439","4.7 km from centre","","","€ 491","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 double, 1 sofa bed)","","","","","","",""
+"Upper East One Bedroom Apartment","Upper East Side, New York","-73.9483950871372,40.772322061667","2.9 km from centre","","","€ 283","1 night, 1 adult","Apartment","2 beds
+(1 sofa bed, 1 large double)","","","","","Review score","5.8","6 reviews"
+"Modern 2 Bedroom Apartment NYC","Upper East Side, New York","-73.9656257629395,40.7619446735143","1.6 km from centre","","","€ 560","1 night, 1 adult","Two-Bedroom Apartment","5 beds
+(2 singles, 2 sofa beds, 1 large double)","","","","","Fabulous","8.9","16 reviews"
+"Tulsi Haven Luxury Manhattan Apartment","Lower East Side, New York","-73.985827,40.720966","5 km from centre","","","€ 207","1 night, 1 adult","Triple Room with Private Bathroom","2 beds
+(1 double, 1 sofa bed)","","","","","Very good","8.4","5 reviews"
+"420 Friendly! Luxury Grand Central Sleeps 5","Murray Hill, New York","-73.977209464918,40.747765054352","2.3 km from centre","","","€ 667","1 night, 1 adult","Deluxe Apartment","3 beds
+(2 doubles, 1 sofa bed)","","","","","Superb","9.1","10 reviews"
+"Cozy Two Bed Apt in Murray Hill","Kips Bay, New York","-73.9764532,40.7443999","2.7 km from centre","","","€ 512","1 night, 1 adult","Two-Bedroom Apartment","3 beds
+(2 doubles, 1 sofa bed)","","","","","","",""
+"The Broome","SoHo, New York","-73.9993491768837,40.7213567285529","5 km from centre","4-star hotel","","€ 278","1 night, 1 adult","Deluxe Queen","1 large double bed","Breakfast included","FREE cancellation","","","Superb","9.0","182 reviews"
+"Gild Hall - A Thompson Hotel","Wall Street - Financial District, New York","-74.0072439238429,40.7079270558163","7 km from centre","4-star hotel","","€ 230","1 night, 1 adult","King Room - Disability Access","1 extra-large double bed","","FREE cancellation","","","Fabulous","8.9","525 reviews"
+"Elegant Tribeca Loft 2b/2b with private Elevator","Tribeca, New York","-74.0043805,40.7190816","5 km from centre","","","€ 589","1 night, 1 adult","One-Bedroom Apartment","2 beds
+(1 extra-large double, 1 large double)","","FREE cancellation","","","","",""

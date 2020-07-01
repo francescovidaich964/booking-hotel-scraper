@@ -28,6 +28,24 @@ def scrape(url):
     return e.extract(r.text,base_url=url)
 
 
+# Function to split the number of stars and the "Promoted" flag
+def split_stars_promoted(orig_str):
+
+    # Check (using the length of orig_str) if the str contains the title:
+    # "Promoted This property spends a little extra to promote their visibility 
+    #  on our site. It matches your search criteria and is a great choice for you."
+
+    if len(orig_str)>100:
+
+        stars_str = orig_str[:-148]
+        pr_str = 'PROMOTED'
+        return stars_str, pr_str
+
+    else: # else return original string ('promotions' remains empty)
+        return orig_str, ''
+
+
+
 
 
 ######################################################################
@@ -41,19 +59,25 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     
     # Define the names of all columns
     fieldnames = [
+        
         "name",
+
         "location",
         "coords",
         "how_far",
-        "stars",
+        
+        "stars", "promotion",  # given by the same css item
         "price",
+        
         "price_for",
         "room_type",
         "beds",
+        
         "breakfast",
         "cancellation",
         "checkin",
         "checkout",
+        
         "rating_title",
         "rating",
         "number_of_ratings",
@@ -74,7 +98,19 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
             # Collect and store data of the current page
             data = scrape(url)
             if data:
+
+                # For every hotel ...
                 for h in data['hotels']:
+
+                    # Split stars and "promoted" flag
+                    stars_str, pr_str = split_stars_promoted(h['stars'])
+                    h['stars'] = stars_str
+                    h['promotion'] = pr_str
+
+                    # Remove text "Show on map" from the Location tag
+                    h['location'] = h['location'][:-12]
+
+                    # Store hotel informations on the csv file
                     writer.writerow(h)
             
             # Redefine url using the 'next_page' link
