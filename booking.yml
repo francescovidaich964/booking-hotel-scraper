@@ -4,73 +4,68 @@ hotels:
     type: Text
     children:
 
-        name:
+        Name:
             css: span.sr-hotel__name
             type: Text
 
-        location:
+        Location:
             css: a.bui-link
             type: Text
-        coords:
+        Coords:
             css: a.bui-link
             type: Attribute
             attribute: data-coords
-        how_far:
+        How_far:
             css:  div.sr_card_address_line span:nth-of-type(2)
             type: Text
 
-        stars:
+        Stars:
             css: span.sr-hotel__title-badges
             type: Text
-        price:
+        Price:
             css: div.bui-price-display__value
             type: Text 
 
-        price_for:
+        Price_for:
             css: div.bui-price-display__label
             type: Text
-        room_type:
+        Room_type:
             css: strong
             type: Text
-        beds:
+        Beds:
             css: div.c-beds-configuration
             type: Text
 
-        breakfast:
+        Breakfast:
             css: div.roomPrice > sup.sr_room_reinforcement
             type: Text
-        cancellation:
+        Cancellation:
             css: sup.sr_room_reinforcement.e2e-free-cancellation
             type: Text
 
-        checkin:
-            css: div.sb-date-field__display
-            type: Text
-        checkout:
-            css: div.sb-date-field__display
-            type: Text 
         #checkin:
-            #css: div.sb-date-field__display[data-placeholder="Check-in date"]
-            #type: Text
+        #    css: div.sb-date-field__display
+        #    type: Text
         #checkout:
-            #css: div.sb-date-field__display[data-placeholder="Check-out date"]
-            #type: Text
+        #    css: div.sb-date-field__display
+        #    type: Text 
 
-        rating_title:
+        Rating_title:
             css: div.bui-review-score__title
             type: Text
-        rating:
+        Rating:
             css: div.bui-review-score__badge
             type: Text
-        number_of_ratings:
+        Number_of_ratings:
             css: div.bui-review-score__text
             type: Text
+
         #url:
-            #css: a.hotel_name_link
-            #type: Link
+        #   css: a.hotel_name_link
+        #   type: Link
         #map:
-            #css: a.bui-link
-            #type: Link
+        #   css: a.bui-link
+        #   type: Link
 
 
 next_page_link:

@@ -4,8 +4,11 @@ import requests
 from time import sleep
 import csv
 
+import numpy as np
+from datetime import datetime
 
-# Function that collects all informations from the page linked from the url
+
+# Function that collects all informations from the page linked to the url
 def scrape(url):    
     headers = {
         'Connection': 'keep-alive',
@@ -22,18 +25,19 @@ def scrape(url):
     }
 
     # Download the page using requests
-    print("\nDownloading %s"%url)
+    print("\nDownloading:\n%s"%url)
     r = requests.get(url, headers=headers)
     # Pass the HTML of the page and create the data
     return e.extract(r.text,base_url=url)
+
 
 
 # Function to split the number of stars and the "Promoted" flag
 def split_stars_promoted(orig_str):
 
     # Check (using the length of orig_str) if the str contains the title:
-    # "Promoted This property spends a little extra to promote their visibility 
-    #  on our site. It matches your search criteria and is a great choice for you."
+    #   "Promoted This property spends a little extra to promote their visibility 
+    #    on our site. It matches your search criteria and is a great choice for you."
 
     if len(orig_str)>100:
 
@@ -46,9 +50,43 @@ def split_stars_promoted(orig_str):
 
 
 
+# Function that extract check-in and check-out from the url
+def retrieve_checkin_checkout(url):
+
+    # Define list of strings to identify
+    strings  = [ 'checkin_monthday' , 'checkin_month' , 'checkin_year' , 
+                 'checkout_monthday', 'checkout_month', 'checkout_year' ]
+
+    # Find position of the strings inside the url
+    pos_str = [url.find(s) for s in strings]
+
+    # Check if there a '=' char between each string and their value or if
+    # it is encoded with its code '%3D' to take the position of the value
+    if url[ pos_str[0] + len(strings[0]) ]  ==  '=' :
+        pos_values = [ (int(pos_str[i]) + len(strings[i]) + 1) for i in range(6) ]
+    else: 
+        pos_values = [ (int(pos_str[i]) + len(strings[i]) + 3) for i in range(6) ]
+
+    # Collect the value of each variable one char at time
+    values = ['']*6
+    for i in range(6):
+        while url[pos_values[i]].isdigit():
+            values[i] = values[i] + url[pos_values[i]]
+            pos_values[i] += 1
+
+    # Build checkin and checkout dates
+    checkin = ' / '.join(values[:3])
+    checkout = ' / '.join(values[3:])
+
+    return checkin, checkout
+
+
+
+
 
 
 ######################################################################
+
 
 
 # Create an Extractor by reading from the YAML file
@@ -60,27 +98,27 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     # Define the names of all columns
     fieldnames = [
         
-        "name",
+        "Name",
 
-        "location",
-        "coords",
-        "how_far",
+        "Location",
+        "Coords",
+        "How_far",
         
-        "stars", "promotion",  # given by the same css item
-        "price",
+        "Stars", "Promotion",  # given by the same css item
+        "Price",
         
-        "price_for",
-        "room_type",
-        "beds",
+        "Price_for",
+        "Room_type",
+        "Beds",
         
-        "breakfast",
-        "cancellation",
-        "checkin",
-        "checkout",
+        "Breakfast",
+        "Cancellation",
+        "Checkin",
+        "Checkout",
         
-        "rating_title",
-        "rating",
-        "number_of_ratings",
+        "Rating_title",
+        "Rating",
+        "Number_of_ratings",
         #"url",
         #"map",
     ]
@@ -90,7 +128,11 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     writer.writeheader()
 
     # For every url in the file...
-    for url in urllist.readlines():
+    for url in urllist.read().splitlines():
+
+        # Extract checkin and checkout dates from the url 
+        # (equal for each page of the same search)
+        checkin_date, checkout_date = retrieve_checkin_checkout(url)
 
         # ...collect search results until the last page
         while (url!=None):
@@ -99,16 +141,20 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
             data = scrape(url)
             if data:
 
-                # For every hotel ...
+                # For every hotel in the page:
                 for h in data['hotels']:
 
                     # Split stars and "promoted" flag
-                    stars_str, pr_str = split_stars_promoted(h['stars'])
-                    h['stars'] = stars_str
-                    h['promotion'] = pr_str
+                    stars_str, pr_str = split_stars_promoted(h['Stars'])
+                    h['Stars'] = stars_str
+                    h['Promotion'] = pr_str
 
                     # Remove text "Show on map" from the Location tag
-                    h['location'] = h['location'][:-12]
+                    h['Location'] = h['Location'][:-12]
+
+                    # Add checkin and checkout to the 'data' table
+                    h['Checkin'] = checkin_date
+                    h['Checkout'] = checkout_date
 
                     # Store hotel informations on the csv file
                     writer.writerow(h)
