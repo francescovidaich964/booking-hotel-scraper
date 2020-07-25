@@ -6,9 +6,18 @@
 
 from selectorlib import Extractor
 import csv
+import datetime
 
 # import functions defined in 'my_funcs.py'
 import my_funcs
+
+
+
+# SET PARAMETERS to permorm the research for more dates
+n_estraz = 1    # num estrazioni (es: una per settimana)
+jump_days = 7   # giorni da aggiungere ad ogni estrazione
+
+
 
 
 # Create an Extractor by reading from the YAML file
@@ -21,7 +30,8 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     fieldnames = [
         
         "Name",
-
+        "Id",
+        
         "Location",
         "Coords",
         "How_far",
@@ -49,39 +59,57 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
     writer = csv.DictWriter(outfile, fieldnames=fieldnames,quoting=csv.QUOTE_ALL)
     writer.writeheader()
 
+
     # For every url in the file...
-    for url in urllist.read().splitlines():
+    for init_url in urllist.read().splitlines():
 
-        # Extract checkin and checkout dates from the url 
-        # (equal for each page of the same search)
-        checkin_date, checkout_date = my_funcs.retrieve_checkin_checkout(url)
 
-        # ...collect search results until the last page
-        while (url!=None):
+        # ...perform the research for 'n_estraz' dates and...
+        for i in range(n_estraz+1):
 
-            # Collect and store data of the current page
-            data = my_funcs.scrape(url, e)
-            if data:
-
-                # For every hotel in the page:
-                for h in data['hotels']:
-
-                    # Split stars and "promoted" flag
-                    stars_str, pr_str = my_funcs.split_stars_promoted(h['Stars'])
-                    h['Stars'] = stars_str
-                    h['Promotion'] = pr_str
-
-                    # Remove text "Show on map" from the Location tag
-                    h['Location'] = h['Location'][:-12]
-
-                    # Add checkin and checkout to the 'data' table
-                    h['Checkin'] = checkin_date
-                    h['Checkout'] = checkout_date
-
-                    # Store hotel informations on the csv file
-                    writer.writerow(h)
+            # From the url, extract checkin, checkout, the positions of their
+            # values inside the url and the number of chars that each value takes 
+            # (equal for each page of the same search)
+            checkin, checkout, pos_values, len_values = my_funcs.retrieve_checkin_checkout(init_url)
             
-            # Redefine url using the 'next_page' link
-            url = data['next_page_link']
+            # we want to store starting url  ->  'url' is the variable that will be modified
+            url = init_url
+
+
+            # ...collect search results of every page until the last one
+            while (url!=None):
+
+                # Collect and store data of the current page
+                data = my_funcs.scrape(url, e)
+                if data:
+
+                    # For every hotel in the page:
+                    for h in data['hotels']:
+
+                        # Split stars and "promoted" flag
+                        stars_str, pr_str = my_funcs.split_stars_promoted(h['Stars'])
+                        h['Stars'] = stars_str
+                        h['Promotion'] = pr_str
+
+                        # Remove text "Show on map" from the Location tag
+                        h['Location'] = h['Location'][:-12]
+
+                        # Add checkin and checkout to the 'data' table
+                        # (Convert 'datatime' in a string format)
+                        h['Checkin']  = str(checkin)[:10]
+                        h['Checkout'] = str(checkout)[:10]
+
+                        # Store hotel informations on the csv file
+                        writer.writerow(h)
+                
+                # Redefine url using the 'next_page' link
+                url = data['next_page_link']
+
+
+            # When the current search results are collected,
+            # change the date inside the url and repeat process 
+            # for 'n_estraz' times
+            init_url = my_funcs.change_date(init_url, jump_days, checkin, checkout, pos_values, len_values)
+
 
     print("\nScraped all pages!\n")

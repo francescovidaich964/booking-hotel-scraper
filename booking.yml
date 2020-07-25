@@ -7,7 +7,11 @@ hotels:
         Name:
             css: span.sr-hotel__name
             type: Text
-
+        Id:
+            css: div.sr_item
+            type: Attribute
+            attribute: data-hotelid
+            
         Location:
             css: a.bui-link
             type: Text

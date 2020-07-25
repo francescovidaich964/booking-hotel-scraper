@@ -5,6 +5,7 @@
 
 import requests 
 from selectorlib import Extractor
+import datetime
 
 
 
@@ -31,6 +32,7 @@ def scrape(url, e):
     return e.extract(r.text,base_url=url)
 
 
+
 ######################################################################################
 
 
@@ -51,48 +53,92 @@ def split_stars_promoted(orig_str):
         return orig_str, ''
 
 
+
 #####################################################################################
 
 
 # Function that extract check-in and check-out from the url
+# and retuns them as 'datetime' objects
 def retrieve_checkin_checkout(url):
 
     # Define list of strings to identify
     #strings  = [ 'checkin_monthday' , 'checkin_month' , 'checkin_year' , 
     #             'checkout_monthday', 'checkout_month', 'checkout_year' ]
-    strings  = [ 'checkin_year' , 'checkin_month' , 'checkin_monthday' , 
-                 'checkout_year', 'checkout_month', 'checkout_monthday' ]
+    strings  = [ 'checkin_year=' , 'checkin_month=' , 'checkin_monthday=' , 
+                 'checkout_year=', 'checkout_month=', 'checkout_monthday=' ]
 
     # Find position of the strings inside the url
     pos_str = [url.find(s) for s in strings]
 
     # If strings are not found (url.find() returns -1), the dates
-    # are explicitly written as 'checkin' and 'checkout'
+    # are explicitly written as 'checkin' and 'checkout' in the url
     if pos_str[0] == -1:
-        strings = ['checkin', 'checkout']
+        strings = ['checkin=', 'checkout=']
         pos_str = [url.find(s) for s in strings]
 
 
-    # Check if there a '=' char between each string and their value or if
-    # it is encoded with its code '%3D' to take the position of the value
+    """ NO URLS SHOULD CONTAINED THE DESIRED DATE WITH '%3D' (it is used for the history)
+    # To take the position of the value, check if there a '=' char between
+    # each string and their value or if it is encoded with its code '%3D'
     if url[ pos_str[0] + len(strings[0]) ]  ==  '=' :
         pos_values = [ (int(pos_str[i]) + len(strings[i]) + 1) for i in range(len(strings)) ]
     else: 
         pos_values = [ (int(pos_str[i]) + len(strings[i]) + 3) for i in range(len(strings)) ]
+    """
+    pos_values = [ (int(pos_str[i]) + len(strings[i])) for i in range(len(strings)) ]
+
 
     # Collect the value of each variable one char at time 
     # (don't stop at '-' if dates are written explicitly in the url)
     values = [''] * len(strings)
+    len_values = [0] * len(strings)
+
     for i in range(len(strings)):
-        while url[pos_values[i]].isdigit() or url[pos_values[i]]== '-':
-            values[i] = values[i] + url[pos_values[i]]
-            pos_values[i] += 1
+        current_pos = pos_values[i] 
+
+        while url[current_pos].isdigit() or url[current_pos] == '-' :
+            values[i] = values[i] + url[current_pos]
+            len_values[i] += 1
+            current_pos = pos_values[i] + len_values[i]
 
     # Build checkin and checkout dates from the values
     if len(strings) == 6:
-        checkin = '-'.join(values[:3])
-        checkout = '-'.join(values[3:])
+        #checkin = '-'.join(values[:3])  # used when function returned the string
+        #checkout = '-'.join(values[3:])
+        checkin  = datetime.datetime(int(values[0]),int(values[1]),int(values[2]))
+        checkout = datetime.datetime(int(values[3]),int(values[4]),int(values[5]))
     else:
-        checkin, checkout = values[:]
+        # checkin, checkout = values[:]
+        checkin  = datetime.datetime.strptime(values[0], '%Y-%m-%d')
+        checkout = datetime.datetime.strptime(values[1], '%Y-%m-%d')
 
-    return checkin, checkout
+    return checkin, checkout, pos_values, len_values
+
+
+
+#####################################################################################
+
+
+# Function that change the checkin and checkout values of the 
+# original url of 'jump_days' days (uses positions and len of 
+# the values extracted from the previous function)
+def change_date(url, jump_days, checkin, checkout, pos_values, len_values):
+
+    # Compute new checkin and checkout and convert them into strings
+    new_checkin  = checkin  + datetime.timedelta(days=jump_days)
+    new_checkout = checkout + datetime.timedelta(days=jump_days)
+
+    # Convert datetimes into strngs and, if the url contains the values of Y-M-D 
+    # written separately, split also the strings containing the new values
+    if len(pos_values) == 6:
+        new_values = str(new_checkin)[:10].split('-') + str(new_checkout)[:10].split('-')
+    else:
+        new_values = [str(new_checkin)[:10], str(new_checkout)[:10]]
+
+    # Inster each value in its corresponding place in the url
+    for i in range(len(new_values)):
+        url = url[ : pos_values[i]] + \
+               new_values[i]        + \
+              url[ pos_values[i]+len_values[i] : ]
+
+    return url
