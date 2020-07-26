@@ -62,8 +62,6 @@ def split_stars_promoted(orig_str):
 def retrieve_checkin_checkout(url):
 
     # Define list of strings to identify
-    #strings  = [ 'checkin_monthday' , 'checkin_month' , 'checkin_year' , 
-    #             'checkout_monthday', 'checkout_month', 'checkout_year' ]
     strings  = [ 'checkin_year=' , 'checkin_month=' , 'checkin_monthday=' , 
                  'checkout_year=', 'checkout_month=', 'checkout_monthday=' ]
 
@@ -77,6 +75,7 @@ def retrieve_checkin_checkout(url):
         pos_str = [url.find(s) for s in strings]
 
 
+
     """ NO URLS SHOULD CONTAINED THE DESIRED DATE WITH '%3D' (it is used for the history)
     # To take the position of the value, check if there a '=' char between
     # each string and their value or if it is encoded with its code '%3D'
@@ -86,6 +85,7 @@ def retrieve_checkin_checkout(url):
         pos_values = [ (int(pos_str[i]) + len(strings[i]) + 3) for i in range(len(strings)) ]
     """
     pos_values = [ (int(pos_str[i]) + len(strings[i])) for i in range(len(strings)) ]
+
 
 
     # Collect the value of each variable one char at time 
@@ -129,14 +129,24 @@ def change_date(url, jump_days, checkin, checkout, pos_values, len_values):
     new_checkout = checkout + datetime.timedelta(days=jump_days)
 
     # Convert datetimes into strngs and, if the url contains the values of Y-M-D 
-    # written separately, split also the strings containing the new values
+    # written separately, split also the strings containing the new values.
+    # Introduce also the ordering of appearence of this values in the url
     if len(pos_values) == 6:
         new_values = str(new_checkin)[:10].split('-') + str(new_checkout)[:10].split('-')
+        ordering = [3,5,4,0,2,1]
     else:
         new_values = [str(new_checkin)[:10], str(new_checkout)[:10]]
+        ordering = [1,0]
+
+    # Reorder lists in order to change the url starting from its end
+    # (this is useful because pos_values could change if new values have different len)
+    new_values = [new_values[i] for i in ordering]
+    pos_values = [pos_values[i] for i in ordering]
+    len_values = [len_values[i] for i in ordering]
 
     # Inster each value in its corresponding place in the url
     for i in range(len(new_values)):
+
         url = url[ : pos_values[i]] + \
                new_values[i]        + \
               url[ pos_values[i]+len_values[i] : ]

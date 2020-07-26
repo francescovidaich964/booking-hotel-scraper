@@ -14,7 +14,7 @@ import my_funcs
 
 
 # SET PARAMETERS to permorm the research for more dates
-n_estraz = 1    # num estrazioni (es: una per settimana)
+n_estraz = 2    # num estrazioni (es: una per settimana)
 jump_days = 7   # giorni da aggiungere ad ogni estrazione
 
 
@@ -24,7 +24,7 @@ jump_days = 7   # giorni da aggiungere ad ogni estrazione
 e = Extractor.from_yaml_file('booking.yml')
 
 # Open 'urls.txt' as input file and 'data.csv' as output file
-with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
+with open("urls.txt",'r') as urllist, open('data.csv','w',encoding='utf-8') as outfile:
     
     # Define the names of all columns
     fieldnames = [
@@ -65,7 +65,7 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
 
 
         # ...perform the research for 'n_estraz' dates and...
-        for i in range(n_estraz+1):
+        for i in range(n_estraz):
 
             # From the url, extract checkin, checkout, the positions of their
             # values inside the url and the number of chars that each value takes 
@@ -110,6 +110,5 @@ with open("urls.txt",'r') as urllist, open('data.csv','w') as outfile:
             # change the date inside the url and repeat process 
             # for 'n_estraz' times
             init_url = my_funcs.change_date(init_url, jump_days, checkin, checkout, pos_values, len_values)
-
 
     print("\nScraped all pages!\n")
